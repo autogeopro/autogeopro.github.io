@@ -1,0 +1,13 @@
+:root {
+  --primary-color: rgb(0, 0, 0);
+  --background-color: #ffffff;
+  --text-color: rgb(255, 255, 255);
+  --text-alt-color: rgb(145, 143, 154);
+  --secondary-color: rgb(255, 77, 0);
+  --third-color: rgb(14, 14, 38);
+  --third-hover-color: rgb(1, 21, 56);
+  --button-color: rgb(255, 255, 255);
+  --light-background-color: rgb(255, 247, 243);
+  --light-color: rgb(233, 233, 233);
+  --hover-button-color: rgb(239, 73, 1);
+}

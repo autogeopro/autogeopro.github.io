@@ -1,5 +1,5 @@
 <script>
-    import '$lib/styles/about.css'
+    import './about.css'
 </script>
 
 <div class="about_container">
@@ -12,7 +12,7 @@
         <div class="aboutus_container">
             <h1 class="about_text">О Нас</h1>
             <p class="about_main_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href="/" class="about_button">Подробнее ></a>
+            <a href="/" class="about_button">Подробнее </a>
         </div>
         <div class="about_mission_container">
             <h1 class="about_text"> Наша Цель</h1>

@@ -1,17 +1,19 @@
 <script>
-    import '$lib/styles/main.css'
+  import './carousel.css'
 
-    import Item1 from "./Item1.svelte";
-    import Item2 from "./Item2.svelte";
-    const items = [
-        Item1,
-        Item2,
-    ];
+  import Item1 from "./Items/Item1.svelte";
+  import Item2 from "./Items/Item2.svelte";
+  const items = [
+    Item1,
+    Item2,
+  ];
 
   let currentSlideItem = 0;
+  
   const nextImage = () => {
     currentSlideItem = (currentSlideItem + 1) % items.length;
   }
+
   const prevImage = () => {
     if (currentSlideItem != 0) {
         currentSlideItem = (currentSlideItem - 1) % items.length;
@@ -19,6 +21,7 @@
         currentSlideItem = items.length - 1;
     }
   }
+
 </script>
 
 {#each [items[currentSlideItem]] as Item (currentSlideItem)}

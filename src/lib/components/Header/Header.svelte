@@ -1,5 +1,5 @@
 <script>
-import '$lib/styles/header.css'
+import './header.css'
 </script>
 
 <header class="mt-3 mb-10 mx-auto max-w-[1440px] bg-background h-[80px] flex justify-between items-center sm:gap-8 md:gap-12 flex-grow">

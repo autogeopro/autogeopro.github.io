@@ -1,6 +1,7 @@
 <script>
-    import '$lib/styles/posts.css'
+  import './posts.css'
 </script>
+
 <div class="posts_container grid grid-cols-2 gap-20 ">
     <div class="posts_featured">
         <p class="posts_featuerd_fisrt_text">Последний Пост</p>

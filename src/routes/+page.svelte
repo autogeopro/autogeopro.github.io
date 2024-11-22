@@ -1,4 +1,5 @@
 <script>
-     import MainPage from "$lib/components/MainPage.svelte";
-    </script>
+  import MainPage from "$lib/components/MainPage/MainPage.svelte";
+</script>
+
   <MainPage/>

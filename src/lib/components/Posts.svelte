@@ -5,7 +5,7 @@
     <div class="posts_featured">
         <p class="posts_featuerd_fisrt_text">Последний Пост</p>
         <div class="posts_featured_content">
-            <img class="posts_featured_img" src="../src/static/img/car.jpg" alt="/">
+            <img class="posts_featured_img" src="/images/car.jpg" alt="/">
             <p class="posts_featured_text_date">May 23, 2024</p>
             <h1 class="posts_featured_text_title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h1>
             <p class="posts_featured_text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>

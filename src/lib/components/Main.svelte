@@ -1,18 +1,29 @@
 <script>
     import '$lib/styles/main.css'
+
+    import Item1 from "./Item1.svelte";
+    import Item2 from "./Item2.svelte";
+    const items = [
+        Item1,
+        Item2,
+    ];
+
+  let currentSlideItem = 0;
+  const nextImage = () => {
+    currentSlideItem = (currentSlideItem + 1) % items.length;
+  }
+  const prevImage = () => {
+    if (currentSlideItem != 0) {
+        currentSlideItem = (currentSlideItem - 1) % items.length;
+    } else {
+        currentSlideItem = items.length - 1;
+    }
+  }
 </script>
-<div class="main_container relative pt-5 ">
-    <img class="absolute z-0 top-0 left-0 w-full h-full object-cover transform scale-x-[-1] brightness-125" src="../src/static/Audi-service-13.jpg" alt="">
-    
-    <div class="main_container_block z-5 relative bg-white bg-opacity-75 p-6 rounded-lg">
-        <h1 class="main_text_bold">Ремонт и техническое обслуживание AUDI, Volkswagen, Skoda. Бесплатная диагностика!</h1>
-        <p class="main_text_first">Автосервис, автотехцентр, ремонт автоэлектрики, шиномонтаж</p>
-        <p class="main_text_second">Техцентр "АВТОГЕО" оказывает услуги по техобслуживанию, автоэлектрике, компьютерной диагностике, ремонту ДВС, ходовой части и подвески авто, сход-развалу (3D), ремонту и заправке кондиционеров, шиномонтажу.</p>
-     <div class="main_buttons">
-        <a class="uni_button rounded-md" href="/">Позвонить</a>
-        <a class="main_button_mail" href="/">Записаться</a>
-    </div>
-    <p class="main_text_third">Москва, Автамоторная улица, 73А, стр.5</p>
- </div>
-   
-</div>
+
+{#each [items[currentSlideItem]] as Item (currentSlideItem)}
+    <Item>
+        <button class="left-button absolute left-4  top-1/2 transform -translate-y-1/2 text-text text-4xl" on:click={() => prevImage()}>&#10094;</button>
+        <button class="right-button absolute right-4 top-1/2 transform -translate-y-1/2 text-text text-4xl" on:click={() => nextImage()}>&#10095;</button>
+    </Item>
+{/each}

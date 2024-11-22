@@ -43,8 +43,8 @@ import './header.css'
   <div class=" flex flex-grow mx-auto justify-center items-center">
     
     <ul class="list-none text-second menu menu-horizontal max-w-[1000px] flex-grow justify-between p-0 ">
-    <li><a class="text-text rounded-none py-5 px-7 " href="/"> О Нас</a></li>
-    <li> <a class="text-text rounded-none py-5 px-7 " href="/">Посты</a></li>
+    <li><a class="text-text rounded-none py-5 px-7 " href="/about"> О Нас</a></li>
+    <li> <a class="text-text rounded-none py-5 px-7 " href="/posts">Посты</a></li>
     <li><a class="text-text rounded-none py-5 px-7 " href="/">Отзывы</a></li>
     <div class="dropdown dropdown-hover ">
       <li><a href="/" class="text-text rounded-none py-5 px-7">Цены  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">

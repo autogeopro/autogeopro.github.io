@@ -16,7 +16,9 @@ WORKDIR /app
 COPY --from=builder /app/build build/
 COPY package*.json ./
 RUN npm install --production
+
+RUN chown -R node:node /app
+USER node
 ENV NODE_ENV=production
 EXPOSE 3000
-
 CMD ["node", "build"]

@@ -1,5 +1,5 @@
 <script>
-    import '$lib/styles/footer.css'
+    import './footer.css'
     </script>
 <footer class="footer bg-background text-third items-center p-4 border-t border-bg-thrid max-w-[1280px] mx-auto mt-[80px] ">
     <aside class="grid-flow-col items-center">

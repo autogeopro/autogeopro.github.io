@@ -1,10 +1,10 @@
 <script>
-import '$lib/styles/header.css'
+import './header.css'
 </script>
 
 <header class="mt-3 mb-10 mx-auto max-w-[1440px] bg-background h-[80px] flex justify-between items-center sm:gap-8 md:gap-12 flex-grow">
     
-    <a class="mt-3 ml-2 mr-1" href="/"><img class="lg:min-w-[220px] h-auto min-w-[200px]" src="../src/static/img/main_logo_site.svg" alt="/"></a>
+    <a class="mt-3 ml-2 mr-1" href="/"><img class="lg:min-w-[220px] h-auto min-w-[200px]" src="/logos/main_logo_site.svg" alt="/"></a>
     
     <div class="flex pt-2  items-center mx-auto justify-center flex-grow">
         <div class="flex mx-auto  items-center justify-between sm:gap-8 md:gap-10 flex-grow max-w-[800px]">
@@ -43,8 +43,8 @@ import '$lib/styles/header.css'
   <div class=" flex flex-grow mx-auto justify-center items-center">
     
     <ul class="list-none text-second menu menu-horizontal max-w-[1000px] flex-grow justify-between p-0 ">
-    <li><a class="text-text rounded-none py-5 px-7 " href="/"> О Нас</a></li>
-    <li> <a class="text-text rounded-none py-5 px-7 " href="/">Посты</a></li>
+    <li><a class="text-text rounded-none py-5 px-7 " href="/about"> О Нас</a></li>
+    <li> <a class="text-text rounded-none py-5 px-7 " href="/posts">Посты</a></li>
     <li><a class="text-text rounded-none py-5 px-7 " href="/">Отзывы</a></li>
     <div class="dropdown dropdown-hover ">
       <li><a href="/" class="text-text rounded-none py-5 px-7">Цены  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">

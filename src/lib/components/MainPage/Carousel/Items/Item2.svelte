@@ -1,6 +1,6 @@
 <div class="main_container relative pt-5 ">
   <img class="absolute z-0 top-0 left-0 w-full h-full object-cover
-     transform scale-x-[-1] brightness-125" src="/images/audi.jpg" alt="">
+     transform scale-x-[-1] brightness-125" src="images/audi.jpg" alt="">
     
   <div class="main_container_block relative bg-white bg-opacity-75 p-6 mr-5 mt-5 mb-5 rounded-lg mr-10">
     <h1 class="main_text_bold">Ремонт и техническое обслуживание AUDI, Volkswagen, Skoda. Бесплатная диагностика!</h1>

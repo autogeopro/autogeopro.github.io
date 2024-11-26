@@ -10,7 +10,7 @@
             <p class="posts_featured_text_date">May 23, 2024</p>
             <h1 class="posts_featured_text_title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h1>
             <p class="posts_featured_text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-            <a class="posts_featured_button uni_button rounded-md" href="/">Подробнее</a>
+            <a class="posts_featured_button uni_button rounded-md uni_button px-[48px] py-[16px] bg-secondary text-text font-bold no-underline hover:bg-hoverButton transition-bg duration-200 ease-in-out" href="/">Подробнее</a>
         </div>
     </div>
 

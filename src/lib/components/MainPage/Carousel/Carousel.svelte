@@ -10,11 +10,11 @@
 
   let currentSlideItem = 0;
   
-  const nextImage = () => {
+  const nextItem = () => {
     currentSlideItem = (currentSlideItem + 1) % items.length;
   }
 
-  const prevImage = () => {
+  const prevItem = () => {
     if (currentSlideItem != 0) {
         currentSlideItem = (currentSlideItem - 1) % items.length;
     } else {
@@ -26,7 +26,7 @@
 
 {#each [items[currentSlideItem]] as Item (currentSlideItem)}
     <Item>
-        <button class="left-button absolute left-4  top-1/2 transform -translate-y-1/2 text-text text-4xl" on:click={() => prevImage()}>&#10094;</button>
-        <button class="right-button absolute right-4 top-1/2 transform -translate-y-1/2 text-text text-4xl" on:click={() => nextImage()}>&#10095;</button>
+        <button class="left-button absolute left-4  top-1/2 transform -translate-y-1/2 text-text text-4xl" on:click={() => nextItem()}>&#10094;</button>
+        <button class="right-button absolute right-4 top-1/2 transform -translate-y-1/2 text-text text-4xl" on:click={() => nextItem()}>&#10095;</button>
     </Item>
 {/each}

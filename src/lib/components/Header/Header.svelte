@@ -4,7 +4,7 @@ import './header.css'
 
 <header class="mt-3 mb-10 mx-auto max-w-[1440px] bg-background h-[80px] flex justify-between items-center sm:gap-8 md:gap-12 flex-grow">
     
-    <a class="mt-3 ml-2 mr-1" href="/"><img class="lg:min-w-[220px] h-auto min-w-[200px]" src="/logos/main_logo_site.svg" alt="/"></a>
+    <a class="mt-3 ml-2 mr-1" href="/"><img class="lg:min-w-[220px] h-auto min-w-[200px]" src="logos/main_logo_site.svg" alt="/"></a>
     
     <div class="flex pt-2  items-center mx-auto justify-center flex-grow">
         <div class="flex mx-auto  items-center justify-between sm:gap-8 md:gap-10 flex-grow max-w-[800px]">

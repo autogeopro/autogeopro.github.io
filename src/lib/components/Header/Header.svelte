@@ -42,7 +42,7 @@ import './header.css'
 <div class="mx-auto max-w-[1440px] bg-third">
   <div class=" flex flex-grow mx-auto justify-center items-center pr-3">
     
-    <ul class="list-none text-second menu menu-horizontal lg:max-w-[1000px] flex-grow justify-between p-0 flex flex-wrap max-w-[600px]">
+    <ul class="list-none text-second menu menu-horizontal lg:max-w-[1000px] flex-grow justify-between p-0 flex flex-wrap max-w-[600px] xs:max-w-[300px]">
     <li><a class="text-text rounded-none py-5 px-7 " href="/about"> О Нас</a></li>
     <li> <a class="text-text rounded-none py-5 px-7 " href="/posts">Посты</a></li>
     <li><a class="text-text rounded-none py-5 px-7 " href="/">Отзывы</a></li>

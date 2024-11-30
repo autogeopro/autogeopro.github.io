@@ -18,9 +18,11 @@ export default {
         hoverButton: "var(--hover-button-color)",
         hoverButtonAlt: "var(--hover-button-alt-color)",
       },
+      screens: {
+        xs: { max: "499px" },
+      },
     },
   },
-
   plugins: [require("daisyui")],
   daisyui: {
     themes: ["light", "dark", "cupcake", "dracula"],

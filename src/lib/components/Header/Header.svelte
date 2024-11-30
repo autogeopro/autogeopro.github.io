@@ -46,38 +46,65 @@ import './header.css'
     <li><a class="text-text rounded-none py-5 px-7 " href="/about"> О Нас</a></li>
     <li> <a class="text-text rounded-none py-5 px-7 " href="/posts">Посты</a></li>
     <li><a class="text-text rounded-none py-5 px-7 " href="/">Отзывы</a></li>
-    <div class="dropdown dropdown-hover">
-      <li><a href="/" class="text-text rounded-none py-5 px-7">Цены  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
-      </svg></a></li>
-      <ul  class="dropdown-content menu bg-background left-0 z-10 items-center rounded-box">
+    <div class="dropdown lg:dropdown-hover">
+      <li><button class="text-text rounded-none py-5 px-7">Цены  <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-4 w-4 ml-1"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        aria-hidden="true"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+          clip-rule="evenodd"
+        /></button></li>
+      <button  class="dropdown-content menu bg-background left-0 z-10 items-center rounded-box">
         <li><a class="sm:px-10 px-5" href="/">сервис</a></li>
         <li><a class="sm:px-10 px-5" href="/">сервис</a></li>
         <li><a class="sm:px-10 px-5" href="/">сервис</a></li>
         <li><a class="sm:px-10 px-5" href="/">сервис</a></li>
-      </ul>
+      </button>
     </div>
-    <div class="dropdown dropdown-hover">
-      <li><a href="/" class="text-text rounded-none py-5 px-7">Ремонт  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
-      </svg></a></li>
-      <ul  class="dropdown-content menu bg-base-100  z-10  left-0  items-center text-second rounded-box">
+    <div class="dropdown lg:dropdown-hover">
+      <li><button class="text-text rounded-none py-5 px-7">Ремонт  <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-4 w-4 ml-1"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        aria-hidden="true"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+          clip-rule="evenodd"
+        /></button></li>
+      <button class="dropdown-content menu bg-base-100  z-10  left-0  items-center text-second rounded-box">
         <li><a class="sm:px-10 px-5"  href="/">сервис</a></li>
         <li><a class="sm:px-10 px-5" href="/">сервис</a></li>
         <li><a class="sm:px-10 px-5" href="/">сервис</a></li>
         <li><a class="sm:px-10 px-5" href="/">сервис</a></li>
-      </ul>
+      </button>
     </div>
-    <div class="dropdown dropdown-hover ">
-      <li><a href="/" class="text-text rounded-none py-5 px-7">ТО  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
-      </svg></a></li>
-      <ul  class="dropdown-content menu bg-base-100 z-10 left-0 items-center text-second text-left rounded-box">
+    <div class="dropdown lg:dropdown-hover">
+      <li><button class="text-text rounded-none py-5 px-7">ТО  <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-4 w-4 ml-1"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        aria-hidden="true"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+          clip-rule="evenodd"
+        /></button></li>
+      <button class="dropdown-content menu bg-base-100 z-10 left-0 items-center text-second text-left rounded-box">
         <li><a class="sm:px-10 px-5" href="/">Сервисные работы</a></li>
         <li><a class="sm:px-10 px-5" href="/">Замена масел</a></li>
         <li><a class="sm:px-10 px-5" href="/">Регулировка света фар</a></li>
         <li><a class="sm:px-10 px-5" href="/">Аппаратная замена антифриза</a></li>
-      </ul>
+      </button>
       
     </div>
     <li><a class="text-text rounded-none py-5 px-7" href="/">Контакты</a></li>

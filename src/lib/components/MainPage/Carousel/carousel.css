@@ -1,4 +1,4 @@
-.main_button_mail::after {
+/* .main_button_mail::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -14,4 +14,4 @@
 
 .main_button_mail:hover::after {
   transform: scale(1, 1);
-}
+} */

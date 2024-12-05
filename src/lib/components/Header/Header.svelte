@@ -43,7 +43,7 @@ import './header.css'
   <div class=" flex flex-grow mx-auto justify-center items-center pr-3">
     
     <ul class="list-none text-second menu menu-horizontal lg:max-w-[1000px] flex-grow justify-between p-0 flex flex-wrap max-w-[600px] xs:max-w-[300px]">
-    <li><a class="text-text text-base rounded-none py-5 px-7 " href="/about"> О Нас</a></li>
+    <li><a class="text-text text-base rounded-none py-5 px-7 " href="/about"> О Компании</a></li>
     <li> <a class="text-text text-base rounded-none py-5 px-7 " href="/posts">Посты</a></li>
     <li><a class="text-text text-base rounded-none py-5 px-7 " href="/">Отзывы</a></li>
     <div class="dropdown lg:dropdown-hover">
@@ -59,11 +59,11 @@ import './header.css'
           d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
           clip-rule="evenodd"
         /></button></li>
-      <ul  class="dropdown-content bg-background left-0 z-10 text-left md:min-w-max">
-        <li><a class="sm:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Цены на шиномонтаж</a></li>
-        <li><a class="sm:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Цены на диагностику автомобиля</a></li>
-        <li><a class="sm:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Цены на ремонт автомобиля</a></li>
-        <li><a class="sm:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Цены на тех. обслуживание</a></li>
+      <ul  class="dropdown-content bg-background left-0 z-10 text-left lg:min-w-max">
+        <li><a class="sm:px-6 md:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Цены на шиномонтаж</a></li>
+        <li><a class="sm:px-6 md:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Цены на диагностику автомобиля</a></li>
+        <li><a class="sm:px-6 md:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Цены на ремонт автомобиля</a></li>
+        <li><a class="sm:px-6 md:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Цены на тех. обслуживание</a></li>
       </ul>
     </div>
     <div class="dropdown lg:dropdown-hover">

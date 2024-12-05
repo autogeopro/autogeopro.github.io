@@ -10,7 +10,7 @@
             <p class="posts_featured_text_date text-primary text-sm pt-8">May 23, 2024</p>
             <h1 class="posts_featured_text_title text-primary text-bold text-[28px] leading-[30px] mt-2 xs:text-[20px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h1>
             <p class="posts_featured_text text-textAlt pb-7 text-base leading-[28px] mt-4">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-            <a class="posts_featured_button  uni_button rounded-md uni_button  px-[48px] py-[16px] bg-secondary text-text font-bold no-underline hover:bg-hoverButton transition-bg duration-200 ease-in-out" href="/">Подробнее</a>
+            <a class="posts_featured_button uni_button rounded-md px-[48px] py-[16px] bg-secondary text-text font-bold no-underline hover:bg-hoverButton transition-bg duration-200 ease-in-out" href="/">Подробнее</a>
         </div>
     </div>
 

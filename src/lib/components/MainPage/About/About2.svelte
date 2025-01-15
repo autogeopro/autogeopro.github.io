@@ -38,8 +38,8 @@
 <p class="text-secondary text-[26px] mt-6 text-center">Запишитесь к нам уже сегодня и доверьте свой 
     автомобиль профессионалам!</p>
     <div class="text-secondary text-[24px] mt-6 text-center underline">
-        <a href="tel:+7-999-135-35-35">Watsapp (+7-999-135-35-35)</a>
-        <a class="pl-5" href="tel:+7-999-135-35-35">Viber (+7-999-135-35-35)</a>
+        <a href="https://wa.me/+79991353535">Watsapp (+7-999-135-35-35)</a>
+        <a class="pl-5" href="https://msng.link/o?79991353535=vi">Viber (+7-999-135-35-35)</a>
     </div>
 </div>
 

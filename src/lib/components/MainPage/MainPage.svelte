@@ -2,11 +2,13 @@
   import Carousel from "./Carousel/Carousel.svelte";
   import Posts from "./Posts/Posts.svelte";
   import About from "./About/About.svelte";
-  import Reviews from "./Reviews/Reviews.svelte";
+  import ReviewList from "./ReviewList/ReviewList.svelte";
+  import About2 from "./About/About2.svelte";
 </script>
 
 <Carousel/>
-<Posts/>
+<!-- <Posts/> -->
 <About/>
-<Reviews/>
+<About2/>
+<ReviewList/>
    

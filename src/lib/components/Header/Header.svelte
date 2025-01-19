@@ -7,21 +7,19 @@ import './header.css'
     <a class="mt-3 ml-2 mr-1" href="/"><img class="lg:min-w-[220px] h-auto min-w-[200px]" src="logos/main_logo_site.svg" alt="/"></a>
     
     <div class="flex pt-2  items-center mx-auto justify-center flex-grow">
-        <div class="flex mx-auto  items-center justify-between sm:gap-8 md:gap-10 flex-grow lg:max-w-[800px] max-w-[400px]">
-        <div class="lg:block leading-normal min-w-[100px] max-h-[100px] hidden">
-        <a class="text-[15px]" href="/">Мск, ул.Автомоторная улица, 73А</a> <br>
-        <a class="text-[15px]" href="/">09:00 - 20:00 ежедневно</a>
+        <div class="flex mx-auto  items-center justify-between sm:gap-8 md:gap-5 flex-grow lg:max-w-[900px] md:max-w-[700px] max-w-[400px]">
+        <div class="md:block leading-normal min-w-[110px] max-h-[100px] hidden text-right">
+        <a class="text-[15px]" href="/">г.Москва, ул.Авиамоторная <br> д.73А стр 5</a> <br>
+        <a class="text-[15px]" href="/">09:00 до 20:00 - ежедневно</a>
         </div>
-        <div class=" sm:block text-right px-2 hidden">
-         <a class="text-third flex gap-1 items-center absolute" href="/"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
-          </svg>
-          +7(999)1234567</a> <br>
-        <a class="text-third" href="/">+7(999)1234567</a> <br>
-        <a class="text-third flex gap-1 items-center" href="/">  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+        <div class=" sm:block text-left px-2 hidden">
+         <a class="text-third flex gap-1 items-center absolute" href="/"> 
+          +7(999)135-35-35</a> <br>
+        <a class="text-third" href="/">+7(985)431-77-00 - Запчасти</a> <br>
+        <!-- <a class="text-third flex gap-1 items-center" href="/">  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
             <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
           </svg>
-            noname@mail.ru</a>
+            noname@mail.ru</a> -->
           
         </div>
         <div class="sm:flex flex-col pt-1 items-start gap-1 pr-10 lg:flex-row lg:items-center lg:pr-10 lg:gap-3 sm:max-auto hidden">
@@ -32,7 +30,7 @@ import './header.css'
         </div>
     <div class="ml-auto pr-3 ">
      
-       <button class="text-base px-4 py-3 lg:px-8 rounded-md bg-secondary text-text hover:bg-hoverButton  transition-colors duration-200 ease-in-out" href="/">Записаться</button>
+       <button class="text-base px-10 py-3 md:px-10 md:py-3 rounded-md bg-secondary text-text font-bold hover:bg-hoverButton  transition-colors duration-200 ease-in-out" href="/">Запись</button>
     </div>
 </div>
 
@@ -43,11 +41,10 @@ import './header.css'
   <div class=" flex flex-grow mx-auto justify-center items-center pr-3">
     
     <ul class="list-none text-second menu menu-horizontal lg:max-w-[1000px] flex-grow justify-between p-0 flex flex-wrap max-w-[600px] xs:max-w-[300px]">
-    <li><a class="text-text rounded-none py-5 px-7 " href="/about"> О Нас</a></li>
-    <li> <a class="text-text rounded-none py-5 px-7 " href="/posts">Посты</a></li>
-    <li><a class="text-text rounded-none py-5 px-7 " href="/">Отзывы</a></li>
+    <li><a class="text-text text-base rounded-none py-5 px-7 " href="/about"> О Нас</a></li>
+    <!-- <li> <a class="text-text text-base rounded-none py-5 px-7 " href="/posts">Посты</a></li> -->
     <div class="dropdown lg:dropdown-hover">
-      <li><button class="text-text rounded-none py-5 px-7">Цены  <svg
+      <li><button class="text-text text-base rounded-none py-5 px-7">ТО  <svg
         xmlns="http://www.w3.org/2000/svg"
         class="h-4 w-4 ml-1"
         viewBox="0 0 20 20"
@@ -59,15 +56,15 @@ import './header.css'
           d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
           clip-rule="evenodd"
         /></button></li>
-      <button  class="dropdown-content menu bg-background left-0 z-10 items-center rounded-box">
-        <li><a class="sm:px-10 px-5" href="/">сервис</a></li>
-        <li><a class="sm:px-10 px-5" href="/">сервис</a></li>
-        <li><a class="sm:px-10 px-5" href="/">сервис</a></li>
-        <li><a class="sm:px-10 px-5" href="/">сервис</a></li>
+      <button class="dropdown-content bg-background z-10 text-left xl:min-w-max">
+        <li><a class="sm:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Сервисные работы</a></li>
+        <li><a class="sm:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Замена масел</a></li>
+        <li><a class="sm:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Регулировка света фар</a></li>
+        <li><a class="sm:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Аппаратная замена антифриза</a></li>
       </button>
     </div>
     <div class="dropdown lg:dropdown-hover">
-      <li><button class="text-text rounded-none py-5 px-7">Ремонт  <svg
+      <li><button class="text-text text-base rounded-none py-5 px-7">Ремонт  <svg
         xmlns="http://www.w3.org/2000/svg"
         class="h-4 w-4 ml-1"
         viewBox="0 0 20 20"
@@ -79,15 +76,19 @@ import './header.css'
           d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
           clip-rule="evenodd"
         /></button></li>
-      <button class="dropdown-content menu bg-base-100  z-10  left-0  items-center text-second rounded-box">
-        <li><a class="sm:px-10 px-5"  href="/">сервис</a></li>
-        <li><a class="sm:px-10 px-5" href="/">сервис</a></li>
-        <li><a class="sm:px-10 px-5" href="/">сервис</a></li>
-        <li><a class="sm:px-10 px-5" href="/">сервис</a></li>
+      <button class="dropdown-content bg-background z-10 text-left lg:min-w-max">
+        <li><a class="sm:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light"  href="/">Ремонт двигателя</a></li>
+        <li><a class="sm:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Ремонт подвески</a></li>
+        <li><a class="sm:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Ремонт трансмиссии</a></li>
+        <li><a class="sm:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Ремонт тормозной системы</a></li>
+        <li><a class="sm:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Замена рулевых тяг</a></li>
+        <li><a class="sm:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Замена балок</a></li>
+        <li><a class="sm:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Замена пружин</a></li>
+        <li><a class="sm:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Замена системы отопления</a></li>
       </button>
     </div>
     <div class="dropdown lg:dropdown-hover">
-      <li><button class="text-text rounded-none py-5 px-7">ТО  <svg
+      <li><button class="text-text rounded-none py-5 px-7 text-base">Цены  <svg
         xmlns="http://www.w3.org/2000/svg"
         class="h-4 w-4 ml-1"
         viewBox="0 0 20 20"
@@ -99,15 +100,18 @@ import './header.css'
           d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
           clip-rule="evenodd"
         /></button></li>
-      <button class="dropdown-content menu bg-base-100 z-10 left-0 items-center text-second text-left rounded-box">
-        <li><a class="sm:px-10 px-5" href="/">Сервисные работы</a></li>
-        <li><a class="sm:px-10 px-5" href="/">Замена масел</a></li>
-        <li><a class="sm:px-10 px-5" href="/">Регулировка света фар</a></li>
-        <li><a class="sm:px-10 px-5" href="/">Аппаратная замена антифриза</a></li>
-      </button>
-      
+      <ul  class="dropdown-content bg-background left-0 z-10 text-left lg:min-w-max">
+        <li><a class="sm:px-6 md:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Цены на шиномонтаж</a></li>
+        <li><a class="sm:px-6 md:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Цены на диагностику автомобиля</a></li>
+        <li><a class="sm:px-6 md:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Цены на ремонт автомобиля</a></li>
+        <li><a class="sm:px-6 md:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Цены на тех. обслуживание</a></li>
+      </ul>
     </div>
-    <li><a class="text-text rounded-none py-5 px-7" href="/">Контакты</a></li>
+    <li><a class="text-text text-base rounded-none py-5 px-7 " href="/">Отзывы</a></li>
+   
+   
+    
+    <li><a class="text-text text-base rounded-none py-5 px-7" href="/">Контакты</a></li>
    
 </ul>
 

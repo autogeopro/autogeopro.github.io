@@ -1,21 +1,21 @@
 <script>
 import './header.css'
+import Burger from "./Burger/Burger.svelte";
 </script>
-
 <header class="mt-3 mb-10 mx-auto max-w-[1440px] bg-background h-[80px] flex justify-between items-center sm:gap-8 md:gap-12 flex-grow">
     
     <a class="mt-3 ml-2 mr-1" href="/"><img class="lg:min-w-[220px] h-auto min-w-[200px]" src="logos/main_logo_site.svg" alt="/"></a>
     
     <div class="flex pt-2  items-center mx-auto justify-center flex-grow">
         <div class="flex mx-auto  items-center justify-between sm:gap-8 md:gap-5 flex-grow lg:max-w-[900px] md:max-w-[700px] max-w-[400px]">
-        <div class="md:block leading-normal min-w-[110px] max-h-[100px] hidden text-right">
+        <div class="md:block leading-normal min-w-[110px] max-h-[100px] hidden text-left">
         <a class="text-[15px]" href="/">г.Москва, ул.Авиамоторная <br> д.73А стр 5</a> <br>
         <a class="text-[15px]" href="/">09:00 до 20:00 - ежедневно</a>
         </div>
         <div class=" sm:block text-left px-2 hidden">
-         <a class="text-third flex gap-1 items-center absolute" href="/"> 
+         <a class="text-third flex gap-1 items-center absolute leading-3 max-h-[100px]" href="/"> 
           +7(999)135-35-35</a> <br>
-        <a class="text-third" href="/">+7(985)431-77-00 - Запчасти</a> <br>
+        <a class="text-third" href="/">+7(985)431-77-00 - запчасти</a> <br>
         <!-- <a class="text-third flex gap-1 items-center" href="/">  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
             <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
           </svg>
@@ -36,11 +36,11 @@ import './header.css'
 
 </header>
 
-
+<!-- <Burger/> -->
 <div class="mx-auto max-w-[1440px] bg-third">
   <div class=" flex flex-grow mx-auto justify-center items-center pr-3">
     
-    <ul class="list-none text-second menu menu-horizontal lg:max-w-[1000px] flex-grow justify-between p-0 flex flex-wrap max-w-[600px] xs:max-w-[300px]">
+    <ul class="list-none text-second menu menu-horizontal lg:max-w-[1000px] flex-grow justify-between p-0 flex flex-wrap xs:max-w-[300px]">
     <li><a class="text-text text-base rounded-none py-5 px-7 " href="/about"> О Нас</a></li>
     <!-- <li> <a class="text-text text-base rounded-none py-5 px-7 " href="/posts">Посты</a></li> -->
     <div class="dropdown lg:dropdown-hover">
@@ -114,10 +114,8 @@ import './header.css'
     <li><a class="text-text text-base rounded-none py-5 px-7" href="/">Контакты</a></li>
    
 </ul>
-
-
-  </div>
-  
-
-
 </div>
+</div>
+
+
+

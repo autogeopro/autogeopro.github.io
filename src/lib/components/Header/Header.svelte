@@ -1,9 +1,12 @@
 <script>
 import './header.css'
 import Burger from "./Burger/Burger.svelte";
+import BurgerButton from './BurgerButton.svelte';
 
 let isMenuOpen = false;
+let isButtonOpen = true;
 const buttonMenu = () => {
+  isButtonOpen = !isButtonOpen;
   isMenuOpen = !isMenuOpen;
 }
 </script>
@@ -17,7 +20,7 @@ const buttonMenu = () => {
         <a class="text-[15px]" href="/">г.Москва, ул.Авиамоторная <br> д.73А стр 5</a> <br>
         <a class="text-[15px]" href="/">09:00 до 20:00 - ежедневно</a>
         </div>
-        <div class=" sm:block text-left px-2 hidden">
+        <div class=" md:block text-left px-2 hidden">
          <a class="text-third flex gap-1 items-center absolute leading-3 max-h-[100px]" href="/"> 
           +7(999)135-35-35</a> <br>
         <a class="text-third" href="/">+7(985)431-77-00 - запчасти</a> <br>
@@ -27,24 +30,16 @@ const buttonMenu = () => {
             noname@mail.ru</a> -->
           
         </div>
-        <div class="sm:flex flex-col pt-1 items-start gap-1 pr-10 lg:flex-row lg:items-center lg:pr-10 lg:gap-3 sm:max-auto hidden">
+        <div class="md:flex flex-col pt-1 items-start gap-1 pr-10 lg:flex-row lg:items-center lg:pr-10 lg:gap-3 sm:max-auto hidden">
             <a class="w-8 lg:w-10 " href="/"><svg fill="#273a53" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 97.75 97.75" xml:space="preserve" stroke="#50528b"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M48.875,0C21.883,0,0,21.882,0,48.875S21.883,97.75,48.875,97.75S97.75,75.868,97.75,48.875S75.867,0,48.875,0z M73.667,54.161c2.278,2.225,4.688,4.319,6.733,6.774c0.906,1.086,1.76,2.209,2.41,3.472c0.928,1.801,0.09,3.776-1.522,3.883 l-10.013-0.002c-2.586,0.214-4.644-0.829-6.379-2.597c-1.385-1.409-2.67-2.914-4.004-4.371c-0.545-0.598-1.119-1.161-1.803-1.604 c-1.365-0.888-2.551-0.616-3.333,0.81c-0.797,1.451-0.979,3.059-1.055,4.674c-0.109,2.361-0.821,2.978-3.19,3.089 c-5.062,0.237-9.865-0.531-14.329-3.083c-3.938-2.251-6.986-5.428-9.642-9.025c-5.172-7.012-9.133-14.708-12.692-22.625 c-0.801-1.783-0.215-2.737,1.752-2.774c3.268-0.063,6.536-0.055,9.804-0.003c1.33,0.021,2.21,0.782,2.721,2.037 c1.766,4.345,3.931,8.479,6.644,12.313c0.723,1.021,1.461,2.039,2.512,2.76c1.16,0.796,2.044,0.533,2.591-0.762 c0.35-0.823,0.501-1.703,0.577-2.585c0.26-3.021,0.291-6.041-0.159-9.05c-0.28-1.883-1.339-3.099-3.216-3.455 c-0.956-0.181-0.816-0.535-0.351-1.081c0.807-0.944,1.563-1.528,3.074-1.528l11.313-0.002c1.783,0.35,2.183,1.15,2.425,2.946 l0.01,12.572c-0.021,0.695,0.349,2.755,1.597,3.21c1,0.33,1.66-0.472,2.258-1.105c2.713-2.879,4.646-6.277,6.377-9.794 c0.764-1.551,1.423-3.156,2.063-4.764c0.476-1.189,1.216-1.774,2.558-1.754l10.894,0.013c0.321,0,0.647,0.003,0.965,0.058 c1.836,0.314,2.339,1.104,1.771,2.895c-0.894,2.814-2.631,5.158-4.329,7.508c-1.82,2.516-3.761,4.944-5.563,7.471 C71.48,50.992,71.611,52.155,73.667,54.161z"></path> </g> </g></svg></a>
             <a class="w-8 lg:w-10 " href="/"><svg viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M128,0 C57.307,0 0,57.307 0,128 L0,128 C0,198.693 57.307,256 128,256 L128,256 C198.693,256 256,198.693 256,128 L256,128 C256,57.307 198.693,0 128,0 L128,0 Z" fill="#40B3E0"> </path> <path d="M190.2826,73.6308 L167.4206,188.8978 C167.4206,188.8978 164.2236,196.8918 155.4306,193.0548 L102.6726,152.6068 L83.4886,143.3348 L51.1946,132.4628 C51.1946,132.4628 46.2386,130.7048 45.7586,126.8678 C45.2796,123.0308 51.3546,120.9528 51.3546,120.9528 L179.7306,70.5928 C179.7306,70.5928 190.2826,65.9568 190.2826,73.6308" fill="#FFFFFF"> </path> <path d="M98.6178,187.6035 C98.6178,187.6035 97.0778,187.4595 95.1588,181.3835 C93.2408,175.3085 83.4888,143.3345 83.4888,143.3345 L161.0258,94.0945 C161.0258,94.0945 165.5028,91.3765 165.3428,94.0945 C165.3428,94.0945 166.1418,94.5735 163.7438,96.8115 C161.3458,99.0505 102.8328,151.6475 102.8328,151.6475" fill="#D2E5F1"> </path> <path d="M122.9015,168.1154 L102.0335,187.1414 C102.0335,187.1414 100.4025,188.3794 98.6175,187.6034 L102.6135,152.2624" fill="#B5CFE4"> </path> </g> </g></svg></a>
             <a class="w-9 lg:w-12 " href="/"><svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M16 31C23.732 31 30 24.732 30 17C30 9.26801 23.732 3 16 3C8.26801 3 2 9.26801 2 17C2 19.5109 2.661 21.8674 3.81847 23.905L2 31L9.31486 29.3038C11.3014 30.3854 13.5789 31 16 31ZM16 28.8462C22.5425 28.8462 27.8462 23.5425 27.8462 17C27.8462 10.4576 22.5425 5.15385 16 5.15385C9.45755 5.15385 4.15385 10.4576 4.15385 17C4.15385 19.5261 4.9445 21.8675 6.29184 23.7902L5.23077 27.7692L9.27993 26.7569C11.1894 28.0746 13.5046 28.8462 16 28.8462Z" fill="#BFC8D0"></path> <path d="M28 16C28 22.6274 22.6274 28 16 28C13.4722 28 11.1269 27.2184 9.19266 25.8837L5.09091 26.9091L6.16576 22.8784C4.80092 20.9307 4 18.5589 4 16C4 9.37258 9.37258 4 16 4C22.6274 4 28 9.37258 28 16Z" fill="url(#paint0_linear_87_7264)"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M16 30C23.732 30 30 23.732 30 16C30 8.26801 23.732 2 16 2C8.26801 2 2 8.26801 2 16C2 18.5109 2.661 20.8674 3.81847 22.905L2 30L9.31486 28.3038C11.3014 29.3854 13.5789 30 16 30ZM16 27.8462C22.5425 27.8462 27.8462 22.5425 27.8462 16C27.8462 9.45755 22.5425 4.15385 16 4.15385C9.45755 4.15385 4.15385 9.45755 4.15385 16C4.15385 18.5261 4.9445 20.8675 6.29184 22.7902L5.23077 26.7692L9.27993 25.7569C11.1894 27.0746 13.5046 27.8462 16 27.8462Z" fill="white"></path> <path d="M12.5 9.49989C12.1672 8.83131 11.6565 8.8905 11.1407 8.8905C10.2188 8.8905 8.78125 9.99478 8.78125 12.05C8.78125 13.7343 9.52345 15.578 12.0244 18.3361C14.438 20.9979 17.6094 22.3748 20.2422 22.3279C22.875 22.2811 23.4167 20.0154 23.4167 19.2503C23.4167 18.9112 23.2062 18.742 23.0613 18.696C22.1641 18.2654 20.5093 17.4631 20.1328 17.3124C19.7563 17.1617 19.5597 17.3656 19.4375 17.4765C19.0961 17.8018 18.4193 18.7608 18.1875 18.9765C17.9558 19.1922 17.6103 19.083 17.4665 19.0015C16.9374 18.7892 15.5029 18.1511 14.3595 17.0426C12.9453 15.6718 12.8623 15.2001 12.5959 14.7803C12.3828 14.4444 12.5392 14.2384 12.6172 14.1483C12.9219 13.7968 13.3426 13.254 13.5313 12.9843C13.7199 12.7145 13.5702 12.305 13.4803 12.05C13.0938 10.953 12.7663 10.0347 12.5 9.49989Z" fill="white"></path> <defs> <linearGradient id="paint0_linear_87_7264" x1="26.5" y1="7" x2="4" y2="28" gradientUnits="userSpaceOnUse"> <stop stop-color="#5BD066"></stop> <stop offset="1" stop-color="#27B43E"></stop> </linearGradient> </defs> </g></svg></a>
           </div>
         </div>
     <div class="ml-auto pr-3">
-     
        <button class="md:block text-base mt-5 px-10 py-3 rounded-md bg-secondary text-text font-bold hover:bg-hoverButton  transition-colors duration-200 ease-in-out hidden" href="/">Запись</button>
 <!-- burger button -->
-      <button class=" mt-7 md:hidden w-[50px] h-[50px] rounded-md bg-third text-text font-bold  transition-colors duration-200 ease-in-out" on:click={buttonMenu}>
-        
-        <div class="w-8 h-1 bg-text mx-auto"></div>
-        <div class="w-8 h-1 bg-text mt-1 mx-auto"></div>
-        <div class="w-8 h-1 bg-text mt-1 mx-auto"></div>
-        <div class="w-8 h-1 bg-text mt-1 mx-auto"></div>
-      
-      </button>
+<BurgerButton buttonMenu={buttonMenu} isButtonOpen={isButtonOpen} />
     </div>
 </div>
 
@@ -71,11 +66,11 @@ const buttonMenu = () => {
           d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
           clip-rule="evenodd"
         /></button></li>
-      <button class="dropdown-content bg-background z-10 text-left xl:min-w-max">
-        <li><a class="sm:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Сервисные работы</a></li>
-        <li><a class="sm:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Замена масел</a></li>
-        <li><a class="sm:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Регулировка света фар</a></li>
-        <li><a class="sm:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Аппаратная замена антифриза</a></li>
+      <button class="dropdown-content bg-third z-10 text-left xl:min-w-max">
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Сервисные работы</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Замена масел</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Регулировка света фар</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Аппаратная замена антифриза</a></li>
       </button>
     </div>
     <div class="dropdown lg:dropdown-hover">
@@ -91,15 +86,15 @@ const buttonMenu = () => {
           d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
           clip-rule="evenodd"
         /></button></li>
-      <button class="dropdown-content bg-background z-10 text-left lg:min-w-max">
-        <li><a class="sm:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light"  href="/">Ремонт двигателя</a></li>
-        <li><a class="sm:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Ремонт подвески</a></li>
-        <li><a class="sm:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Ремонт трансмиссии</a></li>
-        <li><a class="sm:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Ремонт тормозной системы</a></li>
-        <li><a class="sm:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Замена рулевых тяг</a></li>
-        <li><a class="sm:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Замена балок</a></li>
-        <li><a class="sm:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Замена пружин</a></li>
-        <li><a class="sm:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Замена системы отопления</a></li>
+      <button class="dropdown-content  bg-third z-10 text-left lg:min-w-max">
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light"  href="/">Ремонт двигателя</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Ремонт подвески</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Ремонт трансмиссии</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Ремонт тормозной системы</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Замена рулевых тяг</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Замена балок</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Замена пружин</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Замена системы отопления</a></li>
       </button>
     </div>
     <div class="dropdown lg:dropdown-hover">
@@ -115,11 +110,11 @@ const buttonMenu = () => {
           d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
           clip-rule="evenodd"
         /></button></li>
-      <ul  class="dropdown-content bg-background left-0 z-10 text-left lg:min-w-max">
-        <li><a class="sm:px-6 md:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Цены на шиномонтаж</a></li>
-        <li><a class="sm:px-6 md:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Цены на диагностику автомобиля</a></li>
-        <li><a class="sm:px-6 md:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Цены на ремонт автомобиля</a></li>
-        <li><a class="sm:px-6 md:px-10 px-3 hover:bg-background rounded-none hover:text-thirdHover text-primary text-base border-b border-b-light" href="/">Цены на тех. обслуживание</a></li>
+      <ul  class="dropdown-content  bg-third left-0 z-10 text-left lg:min-w-max">
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Цены на шиномонтаж</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Цены на диагностику автомобиля</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Цены на ремонт автомобиля</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Цены на тех. обслуживание</a></li>
       </ul>
     </div>
     <li><a class="text-text text-base rounded-none py-5 px-7 " href="/">Отзывы</a></li>

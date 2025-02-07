@@ -1,71 +1,18 @@
-<ul class=" bg-third list-none text-second menu flex-grow flex-col p-0 flex mx-auto md:hidden">
-  <li><a class="text-text text-[24px] rounded-none py-5 px-7 border-b border-b-textAlt pl-20" href="/about"> О Нас</a></li>
-  <!-- <li> <a class="text-text text-base rounded-none py-5 px-7 " href="/posts">Посты</a></li> -->
-  <div class="dropdown">
-    <li><button class="text-text text-[24px] rounded-none py-5 border-b border-b-textAlt pl-20">ТО  <svg
-      xmlns="http://www.w3.org/2000/svg"
-      class="h-4 w-4 ml-1 mr-2 absolute right-0"
-      viewBox="0 0 20 20"
-      fill="currentColor"
-      aria-hidden="true"
-    >
-      <path
-        fill-rule="evenodd"
-        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-        clip-rule="evenodd"
-      /></button></li>
-    <button class="dropdown-content bg-third z-10 text-left border border-bg-thirdHover right-0 xs:ml-[200px]">
-      <li><a class="py-[18px] pl-10 text-[24px] hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-textAlt" href="/">Сервисные работы</a></li>
-      <li><a class="py-[18px] pl-10 text-[24px] hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-textAlt" href="/">Замена масел</a></li>
-      <li><a class="py-[18px] pl-10 text-[24px] hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-textAlt" href="/">Регулировка света фар</a></li>
-      <li><a class="py-[18px] pl-10 text-[24px] hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-textAlt" href="/">Аппаратная замена антифриза</a></li>
-    </button>
+<ul class="text-[20px] leading-3 bg-text list-none text-second menu flex-grow flex-col p-0 flex mx-auto md:hidden items-center text-primary font-bold mb-10">
+  <li><a class="  rounded-none py-5" href="/about"> О Нас</a></li>
+  <li><a class="rounded-none py-5" href="/">ТО</a></li>
+  <li><a class="rounded-none py-5" href="/">Ремонт</a></li>
+  <li><a class="rounded-none py-5" href="/">Цены</a></li>
+  <li><a class="rounded-none py-5" href="/">Отзывы</a></li>
+  <li><a class="rounded-none py-5" href="/">Контакты</a></li>
+  <li><a class="rounded-none py-5 pt-10" href="/">+7(999)135-35-35</a></li>
+  <li><a class="rounded-none py-5 text-right" href="/">+7(985)431-77-00 - запчасти</a></li>
+  <div class="flex pt-5 gap-5 items-center">
+    <a class="w-8" href="/"><svg fill="#273a53" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 97.75 97.75" xml:space="preserve" stroke="#50528b"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M48.875,0C21.883,0,0,21.882,0,48.875S21.883,97.75,48.875,97.75S97.75,75.868,97.75,48.875S75.867,0,48.875,0z M73.667,54.161c2.278,2.225,4.688,4.319,6.733,6.774c0.906,1.086,1.76,2.209,2.41,3.472c0.928,1.801,0.09,3.776-1.522,3.883 l-10.013-0.002c-2.586,0.214-4.644-0.829-6.379-2.597c-1.385-1.409-2.67-2.914-4.004-4.371c-0.545-0.598-1.119-1.161-1.803-1.604 c-1.365-0.888-2.551-0.616-3.333,0.81c-0.797,1.451-0.979,3.059-1.055,4.674c-0.109,2.361-0.821,2.978-3.19,3.089 c-5.062,0.237-9.865-0.531-14.329-3.083c-3.938-2.251-6.986-5.428-9.642-9.025c-5.172-7.012-9.133-14.708-12.692-22.625 c-0.801-1.783-0.215-2.737,1.752-2.774c3.268-0.063,6.536-0.055,9.804-0.003c1.33,0.021,2.21,0.782,2.721,2.037 c1.766,4.345,3.931,8.479,6.644,12.313c0.723,1.021,1.461,2.039,2.512,2.76c1.16,0.796,2.044,0.533,2.591-0.762 c0.35-0.823,0.501-1.703,0.577-2.585c0.26-3.021,0.291-6.041-0.159-9.05c-0.28-1.883-1.339-3.099-3.216-3.455 c-0.956-0.181-0.816-0.535-0.351-1.081c0.807-0.944,1.563-1.528,3.074-1.528l11.313-0.002c1.783,0.35,2.183,1.15,2.425,2.946 l0.01,12.572c-0.021,0.695,0.349,2.755,1.597,3.21c1,0.33,1.66-0.472,2.258-1.105c2.713-2.879,4.646-6.277,6.377-9.794 c0.764-1.551,1.423-3.156,2.063-4.764c0.476-1.189,1.216-1.774,2.558-1.754l10.894,0.013c0.321,0,0.647,0.003,0.965,0.058 c1.836,0.314,2.339,1.104,1.771,2.895c-0.894,2.814-2.631,5.158-4.329,7.508c-1.82,2.516-3.761,4.944-5.563,7.471 C71.48,50.992,71.611,52.155,73.667,54.161z"></path> </g> </g></svg></a>
+    <a class="w-8" href="/"><svg viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M128,0 C57.307,0 0,57.307 0,128 L0,128 C0,198.693 57.307,256 128,256 L128,256 C198.693,256 256,198.693 256,128 L256,128 C256,57.307 198.693,0 128,0 L128,0 Z" fill="#40B3E0"> </path> <path d="M190.2826,73.6308 L167.4206,188.8978 C167.4206,188.8978 164.2236,196.8918 155.4306,193.0548 L102.6726,152.6068 L83.4886,143.3348 L51.1946,132.4628 C51.1946,132.4628 46.2386,130.7048 45.7586,126.8678 C45.2796,123.0308 51.3546,120.9528 51.3546,120.9528 L179.7306,70.5928 C179.7306,70.5928 190.2826,65.9568 190.2826,73.6308" fill="#FFFFFF"> </path> <path d="M98.6178,187.6035 C98.6178,187.6035 97.0778,187.4595 95.1588,181.3835 C93.2408,175.3085 83.4888,143.3345 83.4888,143.3345 L161.0258,94.0945 C161.0258,94.0945 165.5028,91.3765 165.3428,94.0945 C165.3428,94.0945 166.1418,94.5735 163.7438,96.8115 C161.3458,99.0505 102.8328,151.6475 102.8328,151.6475" fill="#D2E5F1"> </path> <path d="M122.9015,168.1154 L102.0335,187.1414 C102.0335,187.1414 100.4025,188.3794 98.6175,187.6034 L102.6135,152.2624" fill="#B5CFE4"> </path> </g> </g></svg></a>
+    <a class="w-11" href="/"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 48 48">
+      <path fill="#fff" d="M4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98c-0.001,0,0,0,0,0h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303z"></path><path fill="#fff" d="M4.868,43.803c-0.132,0-0.26-0.052-0.355-0.148c-0.125-0.127-0.174-0.312-0.127-0.483l2.639-9.636c-1.636-2.906-2.499-6.206-2.497-9.556C4.532,13.238,13.273,4.5,24.014,4.5c5.21,0.002,10.105,2.031,13.784,5.713c3.679,3.683,5.704,8.577,5.702,13.781c-0.004,10.741-8.746,19.48-19.486,19.48c-3.189-0.001-6.344-0.788-9.144-2.277l-9.875,2.589C4.953,43.798,4.911,43.803,4.868,43.803z"></path><path fill="#cfd8dc" d="M24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,4C24.014,4,24.014,4,24.014,4C12.998,4,4.032,12.962,4.027,23.979c-0.001,3.367,0.849,6.685,2.461,9.622l-2.585,9.439c-0.094,0.345,0.002,0.713,0.254,0.967c0.19,0.192,0.447,0.297,0.711,0.297c0.085,0,0.17-0.011,0.254-0.033l9.687-2.54c2.828,1.468,5.998,2.243,9.197,2.244c11.024,0,19.99-8.963,19.995-19.98c0.002-5.339-2.075-10.359-5.848-14.135C34.378,6.083,29.357,4.002,24.014,4L24.014,4z"></path><path fill="#40c351" d="M35.176,12.832c-2.98-2.982-6.941-4.625-11.157-4.626c-8.704,0-15.783,7.076-15.787,15.774c-0.001,2.981,0.833,5.883,2.413,8.396l0.376,0.597l-1.595,5.821l5.973-1.566l0.577,0.342c2.422,1.438,5.2,2.198,8.032,2.199h0.006c8.698,0,15.777-7.077,15.78-15.776C39.795,19.778,38.156,15.814,35.176,12.832z"></path><path fill="#fff" fill-rule="evenodd" d="M19.268,16.045c-0.355-0.79-0.729-0.806-1.068-0.82c-0.277-0.012-0.593-0.011-0.909-0.011c-0.316,0-0.83,0.119-1.265,0.594c-0.435,0.475-1.661,1.622-1.661,3.956c0,2.334,1.7,4.59,1.937,4.906c0.237,0.316,3.282,5.259,8.104,7.161c4.007,1.58,4.823,1.266,5.693,1.187c0.87-0.079,2.807-1.147,3.202-2.255c0.395-1.108,0.395-2.057,0.277-2.255c-0.119-0.198-0.435-0.316-0.909-0.554s-2.807-1.385-3.242-1.543c-0.435-0.158-0.751-0.237-1.068,0.238c-0.316,0.474-1.225,1.543-1.502,1.859c-0.277,0.317-0.554,0.357-1.028,0.119c-0.474-0.238-2.002-0.738-3.815-2.354c-1.41-1.257-2.362-2.81-2.639-3.285c-0.277-0.474-0.03-0.731,0.208-0.968c0.213-0.213,0.474-0.554,0.712-0.831c0.237-0.277,0.316-0.475,0.474-0.791c0.158-0.317,0.079-0.594-0.04-0.831C20.612,19.329,19.69,16.983,19.268,16.045z" clip-rule="evenodd"></path>
+      </svg></a>
   </div>
-  <div class="dropdown lg:dropdown-hover">
-    <li><button class="text-text text-[24px] rounded-none py-5 px-7 border-b border-b-textAlt pl-20">Ремонт  <svg
-      xmlns="http://www.w3.org/2000/svg"
-      class="h-4 w-4 ml-1 mr-2 absolute right-0"
-      viewBox="0 0 20 20"
-      fill="currentColor"
-      aria-hidden="true"
-    >
-      <path
-        fill-rule="evenodd"
-        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-        clip-rule="evenodd"
-      /></button></li>
-    <button class="dropdown-content bg-third z-10 text-left border border-bg-thirdHover right-0 xs:ml-[200px]">
-      <li><a class="py-[18px] pl-10 text-[24px] hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-textAlt"  href="/">Ремонт двигателя</a></li>
-      <li><a class="py-[18px] pl-10 text-[24px] hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-textAlt" href="/">Ремонт подвески</a></li>
-      <li><a class="py-[18px] pl-10 text-[24px] hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-textAlt" href="/">Ремонт трансмиссии</a></li>
-      <li><a class="py-[18px] pl-10 text-[24px] hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-textAlt" href="/">Ремонт тормозной системы</a></li>
-      <li><a class="py-[18px] pl-10 text-[24px] hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-textAlt" href="/">Замена рулевых тяг</a></li>
-      <li><a class="py-[18px] pl-10 text-[24px] hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-textAlt" href="/">Замена балок</a></li>
-      <li><a class="py-[18px] pl-10 text-[24px] hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-textAlt" href="/">Замена пружин</a></li>
-      <li><a class="py-[18px] pl-10 text-[24px] hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-textAlt" href="/">Замена системы отопления</a></li>
-    </button>
-  </div>
-  <div class="dropdown lg:dropdown-hover">
-    <li><button class="text-text rounded-none py-5 px-7 text-[24px] border-b border-b-textAlt pl-20">Цены  <svg
-      xmlns="http://www.w3.org/2000/svg"
-      class="h-4 w-4 ml-1 mr-2 absolute right-0"
-      viewBox="0 0 20 20"
-      fill="currentColor"
-      aria-hidden="true"
-    >
-      <path
-        fill-rule="evenodd"
-        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-        clip-rule="evenodd"
-      /></button></li>
-    <ul  class="dropdown-content bg-third z-10 text-left border border-bg-thirdHover right-0 xs:ml-[200px]">
-      <li><a class="py-[18px] pl-10 text-[24px] hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-textAlt" href="/">Цены на шиномонтаж</a></li>
-      <li><a class="py-[18px] pl-10 text-[24px] hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-textAlt" href="/">Цены на диагностику автомобиля</a></li>
-      <li><a class="py-[18px] pl-10 text-[24px] hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-textAlt" href="/">Цены на ремонт автомобиля</a></li>
-      <li><a class="py-[18px] pl-10 text-[24px] hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-textAlt" href="/">Цены на тех. обслуживание</a></li>
-    </ul>
-  </div>
-  <li><a class="text-text text-[24px] rounded-none py-5 px-7 border-b border-b-textAlt pl-20" href="/">Отзывы</a></li>
-  <li><a class="text-text text-[24px] rounded-none py-5 px-7 border-b border-b-textAlt pl-20" href="/">Контакты</a></li>
-  <li><a class="text-text text-[24px] rounded-none py-5 px-7 pl-20" href="/">Запись</a></li>
+  <li><button class="text-base mt-5 px-10 py-3 rounded-md bg-secondary text-text font-bold hover:bg-hoverButton  transition-colors duration-200 ease-in-out" href="/">Запись</button></li>
 </ul>

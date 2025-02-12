@@ -9,15 +9,15 @@
     </div>
     <div class="about_color_container max-w-[1280px] mx-auto ">
         <div class="bg-lightBackground">
-        <h1 class="text-primary text-center text-[42px] pt-10">Почему выбирают Нас!</h1>
+        <h1 class="text-primary text-center text-3xl pt-10">Почему выбирают Нас!</h1>
 
 
         <div class="about_incolor_container mx-auto sm:ml-14 grid grid-cols-1 md:grid-cols-2 gap-[40px] sm:pt-[80px] pb-[96px] pl-10 pt-[40px] pr-10 ">
             
-        <div class="aboutus_container max-w-[450px]">
-            <h1 class="about_text text-[32px]  text-primary">Баланс соотношения стоимости и 
+        <div class="aboutus_container max-w-[400px]">
+            <h1 class="about_text text-lg md:text-xl text-primary">Баланс соотношения стоимости и 
                 качества работ  </h1>
-            <p class="about_main_text text-[18px] text-textAlt line-[28px] pt-4 pb-5">Баланс соотношения стоимости и качества 
+            <p class="about_main_text text-sm md:text-base  text-textAlt line-[28px] pt-4 pb-5">Баланс соотношения стоимости и качества 
                 работ 
                 достигается 
                 путем 
@@ -29,44 +29,44 @@
                 современного оборудования. </p>
             
         </div>
-        <div class="about_mission_container max-w-[450px]">
-            <h1 class="about_text text-[32px] text-primary"> Индивидуальный подход </h1>
-            <p class="about_main_text text-[20px] text-textAlt line-[28px] pt-4 pb-4">Наши специалисты учитывают пожелания 
+        <div class="about_mission_container max-w-[400px]">
+            <h1 class="about_text text-lg md:text-xl  text-primary"> Индивидуальный подход </h1>
+            <p class="about_main_text text-sm md:text-base  text-textAlt line-[28px] pt-4 pb-4">Наши специалисты учитывают пожелания 
                 клиентов, исходя из специфики проблемы. </p>
             
         </div>
-        <div class="about_mission_container max-w-[450px]">
-            <h1 class="about_text text-[32px] bold text-primary"> Доверие постоянных клиентов </h1>
-            <p class="about_main_text text-[20px] text-textAlt line-[28px] pt-4 pb-4">Множество положительных отзывов и 
+        <div class="about_mission_container max-w-[400px]">
+            <h1 class="about_text text-lg md:text-xl  bold text-primary"> Доверие постоянных клиентов </h1>
+            <p class="about_main_text text-sm md:text-base  text-textAlt line-[28px] pt-4 pb-4">Множество положительных отзывов и 
                 рекомендаций 
                 наших 
                 посетителей 
                 подтверждают высокое качество работ.</p>
             
         </div>
-        <div class="about_mission_container max-w-[450px]">
-            <h1 class="about_text text-[32px] text-primary">Комплексное 
+        <div class="about_mission_container max-w-[400px]">
+            <h1 class="about_text text-lg md:text-xl text-primary">Комплексное 
                 решение: 
                 диагностики до ремонта   </h1>
-            <p class="about_main_text text-[20px] text-textAlt line-[28px] pt-4 pb-4">Мы ремонтируем только то, что 
+            <p class="about_main_text text-sm md:text-base text-textAlt line-[28px] pt-4 pb-4">Мы ремонтируем только то, что 
                 нуждается в ремонте, не навязываем 
                 лишние услуги и не придумываем 
                 лишних работ!  
                </p>
             
         </div>
-        <div class="about_mission_container max-w-[450px]">
-            <h1 class="about_text text-[32px] text-primary"> Доступность и комфорт</h1>
-            <p class="about_main_text text-[20px] text-textAlt line-[28px] pt-4 pb-4">Наш технический центр расположен в 
+        <div class="about_mission_container max-w-[400px]">
+            <h1 class="about_text text-lg md:text-xl text-primary"> Доступность и комфорт</h1>
+            <p class="about_main_text text-sm md:text-base text-textAlt line-[28px] pt-4 pb-4">Наш технический центр расположен в 
                 удобном месте, а аутентичность клиентской 
                 зоны скрашивает период ожидания. 
                  
                </p>
             
         </div>
-        <div class="about_mission_container max-w-[450px]">
-            <h1 class="about_text text-[32px] text-primary"> Ремонт коммерческого транспорта</h1>
-            <p class="about_main_text text-[20px] text-textAlt line-[28px] pt-4 pb-4">Удобство для организаций, имеющих 
+        <div class="about_mission_container max-w-[400px]">
+            <h1 class="about_text text-lg md:text-xl text-primary"> Ремонт коммерческого транспорта</h1>
+            <p class="about_main_text text-sm md:text-base text-textAlt line-[28px] pt-4 pb-4">Удобство для организаций, имеющих 
                 собственный 
                 автопарк, 
                 требующий 

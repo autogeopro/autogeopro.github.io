@@ -25,15 +25,17 @@ jobs:
       - name: Build Project
         run: npm run build
 
-      - name: Deploy via rsync
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          SERVER_USER: ${{ secrets.SERVER_USER }}
-          SERVER_IP: ${{ secrets.SERVER_IP }}
-          SERVER_PORT: ${{ secrets.SERVER_PORT }}
+      - name: Set up SSH Key
         run: |
           mkdir -p ~/.ssh
-          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan -H $SERVER_IP >> ~/.ssh/known_hosts
-          rsync -av --delete -e "ssh -p $SERVER_PORT" ./build/ $SERVER_USER@$SERVER_IP:/var/www/autogeopro-site
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa  
+
+      - name: Deploy via rsync
+        run: |
+          rsync -av --delete -e "ssh \
+            -p ${{ secrets.SERVER_PORT }} \
+            -o StrictHostKeyChecking=no \
+            -o UserKnownHostsFile=/dev/null \
+            -i ~/.ssh/id_rsa" \
+            ./build/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:/var/www/autogeopro-site

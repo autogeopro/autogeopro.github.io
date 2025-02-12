@@ -33,4 +33,5 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: ${{ secrets.SERVER_PORT }}
           script: |
-            rsync -av --delete ./build/ /var/www/autogeopro-site/
+            rm -rf /var/www/autogeopro-site/*
+            cp -r ./build/* /var/www/autogeopro-site/

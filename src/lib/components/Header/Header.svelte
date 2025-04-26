@@ -12,7 +12,7 @@ const buttonMenu = () => {
 </script>
 <header class="mt-5 mb-10 md:mb-10 mx-auto max-w-[1440px] bg-background h-[80px] flex justify-between items-center sm:gap-2 md:gap-5 lg:gap-12 flex-grow">
     
-    <a class="mt-5 ml-2 mr-1" href="/"><img class="lg:min-w-[220px] h-auto min-w-[200px]" src="logos/main_logo_site.svg" alt="/"></a>
+    <a class="mt-5 ml-2 mr-1" href="/"><img class="lg:min-w-[220px] h-auto min-w-[200px]" src="/logos/main_logo_site.svg" alt="/"></a>
     
     <div class="flex items-center mx-auto justify-center flex-grow">
         <div class="flex mx-auto  items-center justify-between sm:gap-8 md:gap-2 flex-grow lg:max-w-[900px] md:max-w-[700px] max-w-[400px]">
@@ -74,7 +74,7 @@ const buttonMenu = () => {
       </button>
     </div>
     <div class="dropdown lg:dropdown-hover">
-      <li><button class="text-text text-base rounded-none py-5 px-7">Ремонт  <svg
+      <a href="/remont"><li><button class="text-text text-base rounded-none py-5 px-7">Ремонт <svg
         xmlns="http://www.w3.org/2000/svg"
         class="h-4 w-4 ml-1"
         viewBox="0 0 20 20"
@@ -85,16 +85,18 @@ const buttonMenu = () => {
           fill-rule="evenodd"
           d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
           clip-rule="evenodd"
-        /></button></li>
+        /></button></li></a>
       <button class="dropdown-content  bg-third z-10 text-left lg:min-w-max">
-        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light"  href="/">Ремонт двигателя</a></li>
-        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Ремонт подвески</a></li>
-        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Ремонт трансмиссии</a></li>
-        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Ремонт тормозной системы</a></li>
-        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Замена рулевых тяг</a></li>
-        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Замена балок</a></li>
-        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Замена пружин</a></li>
-        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Замена системы отопления</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light"  href="/remont/dvigatel">Ремонт двигателя</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/remont/transmissiya">Ремонт трансмиссии</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/remont/hodovaya">Ремонт ходовой части</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/remont/tormoznaya">Ремонт тормозной системы</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/remont/vihlopnaya">Ремонт выхлопной системы</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/remont/ohlazhdeniya">Ремонт системы охлаждения</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/remont/toplivnaya">Ремонт топливной системы</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/remont/otopleniya">Ремонт системы отопления</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/remont/electrooborudovanie">Ремонт электрооборудования</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/remont/electronnie">Ремонт электронных систем</a></li>
       </button>
     </div>
     <div class="dropdown lg:dropdown-hover">

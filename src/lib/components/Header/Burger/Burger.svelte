@@ -1,7 +1,7 @@
 <ul class="text-[20px] leading-3 bg-text list-none text-second menu flex-grow flex-col p-0 flex mx-auto md:hidden items-center text-primary font-bold mb-10">
   <li><a class="  rounded-none py-5" href="/about"> О Нас</a></li>
   <li><a class="rounded-none py-5" href="/">ТО</a></li>
-  <li><a class="rounded-none py-5" href="/">Ремонт</a></li>
+  <li><a class="rounded-none py-5" href="/remont">Ремонт</a></li>
   <li><a class="rounded-none py-5" href="/">Цены</a></li>
   <li><a class="rounded-none py-5" href="/">Отзывы</a></li>
   <li><a class="rounded-none py-5" href="/">Контакты</a></li>

@@ -1,1 +1,1 @@
-<h1 class="mt-10 text-primary text-3xl">Ремонт системы отопления</h1>
+<h1 class="max-w-[800px] mt-4 text-primary text-sm md:text-base">Патрубки, замена моторчика.</h1>

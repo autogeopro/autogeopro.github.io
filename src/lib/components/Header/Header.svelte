@@ -51,10 +51,10 @@ const buttonMenu = () => {
   <div class=" flex flex-grow mx-auto justify-center items-center pr-3">
     
     <ul class="list-none text-second menu menu-horizontal lg:max-w-[1000px] flex-grow justify-between p-0 flex flex-wrap xs:max-w-[300px]">
-    <li><a class="text-text text-base rounded-none py-5 px-7 " href="/about"> О Нас</a></li>
+    <li><a class="text-text text-sm rounded-none py-5 px-7 " href="#about"> О Нас</a></li>
     <!-- <li> <a class="text-text text-base rounded-none py-5 px-7 " href="/posts">Посты</a></li> -->
     <div class="dropdown lg:dropdown-hover">
-      <li><button class="text-text text-base rounded-none py-5 px-7">ТО  <svg
+     <a href="/TO"> <li><button class="text-text text-sm rounded-none py-5 px-7">ТО  <svg
         xmlns="http://www.w3.org/2000/svg"
         class="h-4 w-4 ml-1"
         viewBox="0 0 20 20"
@@ -65,16 +65,41 @@ const buttonMenu = () => {
           fill-rule="evenodd"
           d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
           clip-rule="evenodd"
-        /></button></li>
+        /></button></li></a>
       <button class="dropdown-content bg-third z-10 text-left xl:min-w-max">
-        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Сервисные работы</a></li>
-        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Замена масел</a></li>
-        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Регулировка света фар</a></li>
-        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Аппаратная замена антифриза</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/TO/zamena-masla-v-dvs">Замена масла в ДВС</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/TO/zamena-masla-v-kpp">Замена масла в КПП</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/TO/zamena-masla-v-reduktore">Замена масла в Редукторе</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/TO/zamena-tormoznih-kolodok">Замена тормозных колодок</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/TO/zamena-tormoznih-diskov">Замена тормозных дисков</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/TO/zamena-filtrov">Замена фильтров</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/TO/zamena-svechei">Замена свечей</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/TO/zamena-zhidkostei-sistem-ohlazhdeniya">Замена жидкостей систем охлаждения</a></li>
+        <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/TO/razval-shozhdenie">Развал-схождение</a></li>
       </button>
     </div>
     <div class="dropdown lg:dropdown-hover">
-      <a href="/remont"><li><button class="text-text text-base rounded-none py-5 px-7">Ремонт <svg
+      <a href="/diagnostika"> <li><button class="text-text text-sm rounded-none py-5 px-7">Диагностика  <svg
+         xmlns="http://www.w3.org/2000/svg"
+         class="h-4 w-4 ml-1"
+         viewBox="0 0 20 20"
+         fill="currentColor"
+         aria-hidden="true"
+       >
+         <path
+           fill-rule="evenodd"
+           d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+           clip-rule="evenodd"
+         /></button></li></a>
+       <button class="dropdown-content bg-third z-10 text-left xl:min-w-max">
+         <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/diagnostika/kompyuternaya-diagnostika">Компьютерная диагностика</a></li>
+         <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/diagnostika/diagnostika-dvigatelya">Диагностика двигателя</a></li>
+         <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/diagnostika/diagnostika-podveski-i-razval-shozhdeniya">Диагностика подвески и развал-схождения</a></li>
+         <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/diagnostika/kompleksnaya-diagnostika">Комплексная диагностика</a></li>
+       </button>
+     </div>
+    <div class="dropdown lg:dropdown-hover">
+      <a href="/remont"><li><button class="text-text text-sm rounded-none py-5 px-7">Ремонт <svg
         xmlns="http://www.w3.org/2000/svg"
         class="h-4 w-4 ml-1"
         viewBox="0 0 20 20"
@@ -100,7 +125,7 @@ const buttonMenu = () => {
       </button>
     </div>
     <div class="dropdown lg:dropdown-hover">
-      <li><button class="text-text rounded-none py-5 px-7 text-base">Цены  <svg
+       <a href="/price"><li><button class="text-text rounded-none py-5 px-7 text-sm">Цены  <!--<svg
         xmlns="http://www.w3.org/2000/svg"
         class="h-4 w-4 ml-1"
         viewBox="0 0 20 20"
@@ -111,19 +136,15 @@ const buttonMenu = () => {
           fill-rule="evenodd"
           d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
           clip-rule="evenodd"
-        /></button></li>
-      <ul  class="dropdown-content  bg-third left-0 z-10 text-left lg:min-w-max">
+        />--></button></li> </a>
+      <!-- <ul  class="dropdown-content  bg-third left-0 z-10 text-left lg:min-w-max">
         <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Цены на шиномонтаж</a></li>
         <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Цены на диагностику автомобиля</a></li>
         <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Цены на ремонт автомобиля</a></li>
         <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Цены на тех. обслуживание</a></li>
-      </ul>
+      </ul> -->
     </div>
-    <li><a class="text-text text-base rounded-none py-5 px-7 " href="/">Отзывы</a></li>
-   
-   
-    
-    <li><a class="text-text text-base rounded-none py-5 px-7" href="/">Контакты</a></li>
+    <li><a class="text-text text-sm rounded-none py-5 px-7 " href="/">Отзывы</a></li>
    
 </ul>
 </div>

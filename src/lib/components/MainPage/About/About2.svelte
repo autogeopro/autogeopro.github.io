@@ -1,6 +1,6 @@
 <div class="max-w-[1280px] mx-auto mt-20">
     <div class="px-10">
-  <h1 class="text-center text-primary text-3xl">О Нас</h1>
+  <h1 id="about" class="text-center text-primary text-3xl">О Нас</h1>
 <p class=" text-primary text-lg md:text-xl mt-10">Мы - профессиональная команда специалистов, предлагающая 
     широкий спектр услуг по обслуживанию и ремонту легковых автомобилей 
    <span class="text-secondary">Volkswagen, Audi, Skoda, Mercedes, BMW, Ford, KIA, 

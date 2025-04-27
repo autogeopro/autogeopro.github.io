@@ -21,7 +21,7 @@
       <a
         href={`/remont/${href}`}
         class={`block ${activeLink === href ?
-         'text-red-500 font-bold text-primary' : ''}`}
+         ' font-bold text-secondary text-sm md:text-base ' : ''}`}
       >
         {title}
       </a>

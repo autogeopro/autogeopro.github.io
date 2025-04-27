@@ -1,0 +1,1 @@
+<h1 class="max-w-[800px] mt-4 text-primary text-sm md:text-base">Замена карданного вала, шруса,пыльников, редуктора.</h1>

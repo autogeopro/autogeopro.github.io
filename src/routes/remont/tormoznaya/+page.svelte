@@ -1,1 +1,1 @@
-<h1 class="mt-10 text-primary text-3xl">Ремонт тормозной системы</h1>
+<h1 class="max-w-[800px] mt-4 text-primary text-sm md:text-base">Ремонт/замена суппортов, замена тормозных шлангов, замена тормозных цилиндров.</h1>

@@ -41,8 +41,8 @@
 <div class="max-w-[1280px] mx-auto mt-10">
   <div class="mt-[90px] sm:ml-[80px] ml-10 md:flex flex-grow mx-auto md:justify-between">
     <div class="pr-[5px] lg:pr-[80px] md:pr-[50px] mr-10 md:border-r mb-10 border-b md:border-b-0 border-bg-thrid md:pt-[10px] md:h-[230px]">
-      <p class="font-semibold text-[16px] uppercase text-primary">Отзывы</p>
-      <h1 class="mt-[12px] font-bold text-[36px] max-w-[300px] text-primary leading-[48px] mb-10">
+      <p id="reviews" class="font-semibold text-lg uppercase text-primary">Отзывы</p>
+      <h1 class="mt-[12px] font-bold text-3xl max-w-[300px] text-primary leading-[48px] mb-10">
         Что люди говорят о нашем сервисе:
       </h1>
     </div>

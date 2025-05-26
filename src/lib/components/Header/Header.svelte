@@ -9,7 +9,17 @@ const buttonMenu = () => {
   isButtonOpen = !isButtonOpen;
   isMenuOpen = !isMenuOpen;
 }
+import { goto } from '$app/navigation';
+
+function goToReviews() {
+  goto('/#reviews');
+}
+
+function goToAbout() {
+  goto('/#about');
+}
 </script>
+
 <header class="mt-5 mb-10 md:mb-10 mx-auto max-w-[1440px] bg-background h-[80px] flex justify-between items-center sm:gap-2 md:gap-5 lg:gap-12 flex-grow">
     
     <a class="mt-5 ml-2 mr-1" href="/"><img class="lg:min-w-[220px] h-auto min-w-[200px]" src="/logos/main_logo_site.svg" alt="/"></a>
@@ -51,7 +61,7 @@ const buttonMenu = () => {
   <div class=" flex flex-grow mx-auto justify-center items-center pr-3">
     
     <ul class="list-none text-second menu menu-horizontal lg:max-w-[1000px] flex-grow justify-between p-0 flex flex-wrap xs:max-w-[300px]">
-    <li><a class="text-text text-sm rounded-none py-5 px-7 " href="#about"> О Нас</a></li>
+    <li><a class="text-text text-sm rounded-none py-5 px-7 " on:click|preventDefault={goToAbout}  href="#about"> О Нас</a></li>
     <!-- <li> <a class="text-text text-base rounded-none py-5 px-7 " href="/posts">Посты</a></li> -->
     <div class="dropdown lg:dropdown-hover">
      <a href="/TO"> <li><button class="text-text text-sm rounded-none py-5 px-7">ТО  <svg
@@ -144,7 +154,7 @@ const buttonMenu = () => {
         <li><a class="sm:px-10 px-3 py-5 hover:bg-background rounded-none hover:text-thirdHover text-text text-base border-b border-b-light" href="/">Цены на тех. обслуживание</a></li>
       </ul> -->
     </div>
-    <li><a class="text-text text-sm rounded-none py-5 px-7 " href="/">Отзывы</a></li>
+    <li><a class="text-text text-sm rounded-none py-5 px-7 " on:click|preventDefault={goToReviews} href="#reviews">Отзывы</a></li>
    
 </ul>
 </div>

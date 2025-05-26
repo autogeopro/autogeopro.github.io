@@ -1,9 +1,24 @@
+<script>
+
+import { goto } from '$app/navigation';
+
+function goToReviews() {
+  goto('/#reviews');
+}
+
+function goToAbout() {
+  goto('/#about');
+}
+</script>
+
+
 <ul class="text-[20px] leading-3 bg-text list-none text-second menu flex-grow flex-col p-0 flex mx-auto md:hidden items-center text-primary font-bold mb-10">
-  <li><a class="  rounded-none py-5" href="#about"> О Нас</a></li>
+  <li><a class="  rounded-none py-5" on:click|preventDefault={goToAbout} href="/#about"> О Нас</a></li>
   <li><a class="rounded-none py-5" href="/TO">ТО</a></li>
   <li><a class="rounded-none py-5" href="/diagnostika">Диагностика</a></li>
   <li><a class="rounded-none py-5" href="/remont">Ремонт</a></li>
-  <li><a class="rounded-none py-5" href="/">Отзывы</a></li>
+  <li><a class="rounded-none py-5" href="/price">Цены</a></li>
+  <li><a class="rounded-none py-5" on:click|preventDefault={goToReviews} href="/#reviews">Отзывы</a></li>
   <li><a class="rounded-none py-5 pt-10" href="/">+7(999)135-35-35</a></li>
   <li><a class="rounded-none py-5 text-right" href="/">+7(985)431-77-00 - запчасти</a></li>
   <div class="flex pt-5 gap-5 items-center">

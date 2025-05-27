@@ -1,7 +1,7 @@
 <script>
     import './footer.css'
     </script>
-<footer class="footer bg-background text-third items-center p-4 border-t border-bg-thrid max-w-[1440px] mx-auto mt-[80px] flex justify-between">
+<footer class="footer bg-background text-third items-center p-4 border-t border-bg-thrid max-w-[1440px] mx-auto  flex justify-between">
     <aside class="">
         
       <p>Copyright © {new Date().getFullYear()} - All right reserved</p>

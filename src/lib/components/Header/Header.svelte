@@ -27,7 +27,7 @@ function goToAbout() {
     <div class="flex items-center mx-auto justify-center flex-grow">
         <div class="flex mx-auto  items-center justify-between sm:gap-8 md:gap-2 flex-grow lg:max-w-[900px] md:max-w-[700px] max-w-[400px]">
         <div class="md:block leading-normal min-w-[110px] max-h-[100px] hidden text-left">
-        <a class="text-[15px]" href="/">г.Москва, ул.Авиамоторная <br> д.73А стр 5</a> <br>
+        <a class="text-[15px]" href="https://yandex.ru/maps/org/auditsentr_avtogeo/92074602551/?ll=37.722208%2C55.735206&z=16" target="_blank">г. Москва, ул. Авиамоторная, <br> д. 73а стр. 5</a> <br>
         <a class="text-[15px]" href="/">09:00 до 20:00 - ежедневно</a>
         </div>
         <div class=" md:block text-left px-2 hidden">

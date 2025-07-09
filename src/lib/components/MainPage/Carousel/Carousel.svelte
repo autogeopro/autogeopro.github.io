@@ -22,8 +22,8 @@
   }
 
   const prevItem = () => {
-    if (currentSlideItem != 0) {
-        currentSlideItem = (currentSlideItem - 1) % items.length;
+    if (currentSlideItem !== 0) {
+        currentSlideItem = (currentSlideItem - 1 + items.length) % items.length;
     } else {
         currentSlideItem = items.length - 1;
     }
@@ -53,9 +53,18 @@
 
 </script>
 
-{#each [items[currentSlideItem]] as Item (currentSlideItem)}
-    <Item>
-        <button class="left-button absolute left-4  top-1/2 transform -translate-y-1/2 text-text text-4xl bg-black bg-opacity-50 p-4 rounded-full" on:click={handlePrev}>&#10094;</button>
-        <button class="right-button absolute right-4 top-1/2 transform -translate-y-1/2 text-text text-4xl bg-black bg-opacity-50 p-4 rounded-full" on:click={handleNext}>&#10095;</button>
-    </Item>
-{/each}
+<div class="relative grid">
+    {#each items as Item, i}
+        <div
+            class="col-start-1 row-start-1 transition-opacity duration-500"
+            class:opacity-100={i === currentSlideItem}
+            class:opacity-0={i !== currentSlideItem}
+            class:pointer-events-none={i !== currentSlideItem}
+        >
+            <Item>
+                <button class="left-button absolute left-4 top-1/2 transform -translate-y-1/2 text-text text-4xl bg-black bg-opacity-30 hover:bg-opacity-50 transition-all p-4 rounded-full z-10" on:click={handlePrev}>&#10094;</button>
+                <button class="right-button absolute right-4 top-1/2 transform -translate-y-1/2 text-text text-4xl bg-black bg-opacity-30 hover:bg-opacity-50 transition-all p-4 rounded-full z-10" on:click={handleNext}>&#10095;</button>
+            </Item>
+        </div>
+    {/each}
+</div>

@@ -19,6 +19,13 @@
     а также на расход топлива. Корректные параметры обеспечивают устойчивость автомобиля, минимизируют вибрации и предотвращают преждевременный износ шин.
   </p>
 
+  <img 
+      src="/images/Diagnostika/diagnostika_podveski.png" 
+      alt="Свечи зажигания"
+      class="w-40 sm:w-48 md:w-56 float-none md:float-left mr-0 md:mr-4 mb-3 md:mb-2 rounded shadow-md"
+    />
+
+
   <!-- Признаки необходимости с зелёным только у первых слов -->
   <h2 class="font-semibold mt-4 mb-2">● Признаки необходимости проведения процедуры развала‑схождения</h2>
 
@@ -101,7 +108,19 @@
       {/each}
     </tbody>
   </table>
-
+<div class="flex flex-wrap justify-center items-center gap-8 mt-8">
+    <img src="/images/logo_auto/audi.png" alt="Audi" class="h-10 object-contain">
+    <img src="/images/logo_auto/bmw.png" alt="BMW" class="h-10 object-contain">
+    <img src="/images/logo_auto/ford.png" alt="Ford" class="h-10 object-contain">
+    <img src="/images/logo_auto/hundai.png" alt="Hyundai" class="h-10 object-contain">
+    <img src="/images/logo_auto/kia.png" alt="Kia" class="h-10 object-contain">
+    <img src="/images/logo_auto/mazda.png" alt="Mazda" class="h-10 object-contain">
+    <img src="/images/logo_auto/mercedes.png" alt="Mercedes" class="h-10 object-contain">
+    <img src="/images/logo_auto/nissan.png" alt="Nissan" class="h-10 object-contain">
+    <img src="/images/logo_auto/peugeot.png" alt="Peugeot" class="h-10 object-contain">
+    <img src="/images/logo_auto/renault.png" alt="Renault" class="h-10 object-contain">
+    <img src="/images/logo_auto/tyiota.png" alt="Toyota" class="h-10 object-contain">
+  </div>
   <p class="text-xs text-gray-600 mt-2">
     *Стоимость работ, не указанных в прайсе, оговариваются отдельно с мастером‑приёмщиком.<br>
     **Цены действительны при условии нормального состояния резьбовых крепежных соединений

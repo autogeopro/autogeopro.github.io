@@ -20,7 +20,11 @@
   <p class="mb-4">
     Регулярная замена фильтров — это простой и эффективный способ поддержать автомобиль в отличном техническом состоянии и обеспечить безопасность на дороге.
   </p>
-
+  <img 
+    src="/images/zamena_filtrov_images/filtr.png" 
+    alt="Фильтр" 
+    class="w-40 sm:w-48 md:w-56 float-none md:float-left mr-0 md:mr-4 mb-3 md:mb-2 rounded shadow-md"
+  />
   <!-- Виды фильтров -->
   <h2 class="font-semibold mt-4 mb-2">● Виды фильтров</h2>
   <ul class="space-y-1 pl-1">
@@ -127,7 +131,19 @@
       {/each}
     </tbody>
   </table>
-
+<div class="flex flex-wrap justify-center items-center gap-8 mt-8">
+    <img src="/images/logo_auto/audi.png" alt="Audi" class="h-10 object-contain">
+    <img src="/images/logo_auto/bmw.png" alt="BMW" class="h-10 object-contain">
+    <img src="/images/logo_auto/ford.png" alt="Ford" class="h-10 object-contain">
+    <img src="/images/logo_auto/hundai.png" alt="Hyundai" class="h-10 object-contain">
+    <img src="/images/logo_auto/kia.png" alt="Kia" class="h-10 object-contain">
+    <img src="/images/logo_auto/mazda.png" alt="Mazda" class="h-10 object-contain">
+    <img src="/images/logo_auto/mercedes.png" alt="Mercedes" class="h-10 object-contain">
+    <img src="/images/logo_auto/nissan.png" alt="Nissan" class="h-10 object-contain">
+    <img src="/images/logo_auto/peugeot.png" alt="Peugeot" class="h-10 object-contain">
+    <img src="/images/logo_auto/renault.png" alt="Renault" class="h-10 object-contain">
+    <img src="/images/logo_auto/tyiota.png" alt="Toyota" class="h-10 object-contain">
+  </div>
   <p class="text-xs text-gray-600 mt-2">
     *Стоимость работ, не указанных в прайсе, оговариваются отдельно с мастером‑приёмщиком.<br>
     **Цены действительны при условии нормального состояния резьбовых крепёжных соединений (гайки, болты, винты и прочее нормально откручиваются без дополнительного нагрева, применения специальных жидкостей и средств).

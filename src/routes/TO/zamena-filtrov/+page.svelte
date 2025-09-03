@@ -1,7 +1,6 @@
 <script>
   let contacts = { phone: "+7 (999) 135-35-35" };
 
-  // При желании — таблица цен (можно вывести ниже)
   let priceListFilters = [
     { name: "Замена воздушного фильтра",  price: "от 1000 руб." },
     { name: "Замена топливного фильтра",  price: "от 1350 руб." },
@@ -12,99 +11,111 @@
 
 <div class="max-w-[900px] mx-auto text-sm md:text-base text-gray-900 leading-relaxed p-6">
   <!-- Заголовок -->
-  <h1 class="text-xl font-bold text-center mb-4 text-red-600">
+  <h1 class="text-xl font-bold text-center mb-6 text-red-600">
     ЗАМЕНА ФИЛЬТРОВ
   </h1>
 
-  <!-- Краткое описание (по смыслу из раздела) -->
+  <!-- Вводный абзац -->
   <p class="mb-4">
-    Регулярная замена фильтров — это простой и эффективный способ поддержать автомобиль в отличном техническом состоянии и обеспечить безопасность на дороге.
+    Регулярная замена фильтров — простой и эффективный способ поддерживать автомобиль в отличном состоянии и обеспечить безопасность на дороге.
   </p>
-  <img 
-    src="/images/zamena_filtrov_images/filtr.png" 
-    alt="Фильтр" 
-    class="w-40 sm:w-48 md:w-56 float-none md:float-left mr-0 md:mr-4 mb-3 md:mb-2 rounded shadow-md"
-  />
-  <!-- Виды фильтров -->
-  <h2 class="font-semibold mt-4 mb-2">● Виды фильтров</h2>
-  <ul class="space-y-1 pl-1">
-    <li><span class="font-semibold">► Топливный фильтр</span> – задерживает механические и химические загрязнения из бензина или дизельного топлива, предотвращая засорение форсунок и остальных элементов топливной системы.</li>
-    <li><span class="font-semibold">► Масляный фильтр</span> – очищает моторное масло от продуктов износа и загрязнений, продлевая жизнь двигателя.</li>
-    <li><span class="font-semibold">► Салонный фильтр</span> – улучшает качество воздуха внутри салона, задерживая пыль, пыльцу и аллергены.</li>
-  </ul>
 
- <div class="max-w-[900px] mx-auto text-sm md:text-base text-gray-900 leading-relaxed p-6">
-  <h2 class="text-lg font-semibold mb-3">● Признаки необходимости замены фильтров</h2>
+  <!-- Виды фильтров (фиолетовый блок) -->
+  <div class="bg-gradient-to-r from-fuchsia-50 to-white border-l-4 border-fuchsia-500 rounded-lg shadow p-6 mb-6">
+    <img 
+      src="/images/zamena_filtrov_images/filtr.png" 
+      alt="Фильтр" 
+      class="w-40 sm:w-48 md:w-56 float-none md:float-left mr-0 md:mr-4 mb-3 md:mb-2 rounded shadow-md"
+    />
+    <h2 class="font-semibold mt-1 mb-2 text-fuchsia-700">● Виды фильтров</h2>
+    <ul class="space-y-1 pl-1">
+      <li><span class="font-semibold">► Топливный фильтр</span> — задерживает загрязнения из бензина/дизеля, защищает форсунки и элементы топливной системы.</li>
+      <li><span class="font-semibold">► Масляный фильтр</span> — очищает моторное масло от продуктов износа и грязи, продлевая срок службы двигателя.</li>
+      <li><span class="font-semibold">► Салонный фильтр</span> — улучшает качество воздуха в салоне, задерживая пыль, пыльцу и аллергены.</li>
+      <li><span class="font-semibold">► Воздушный фильтр</span> — очищает воздух, поступающий в двигатель, влияет на тягу и расход топлива.</li>
+    </ul>
+    <div class="clear-both"></div>
+  </div>
 
-  <!-- Воздушный фильтр -->
-  <h3 class="font-semibold mb-2">
-    <span class="text-green-600">► Воздушный фильтр</span>
-  </h3>
-  <ul class="pl-6 list-disc space-y-1">
-    <li><span class="text-green-600"> Снижение мощности двигателя.</span> Засоренный фильтр ограничивает приток воздуха, из-за чего автомобиль может хуже разгоняться или терять тягу</li>
-    <li><span class="text-green-600"> Увеличение расхода топлива.</span> Ограниченный доступ воздуха заставляет двигатель работать менее эффективно, что повышает потребление топлива</li>
-    <li><span class="text-green-600"> Чёрный дым из выхлопной трубы.</span> Это может быть признаком неполного сгорания топлива из-за недостатка воздуха</li>
-    <li><span class="text-green-600"> Шум при работе двигателя.</span> Засоренный фильтр может вызывать необычные звуки, так как двигатель «задыхается» от недостатка воздуха</li>
-    <li><span class="text-green-600"> Визуальная проверка.</span> Если фильтр покрыт толстым слоем пыли, грязи или имеет повреждения (например, разрывы), его нужно заменить</li>
-  </ul>
+  <div class="grid gap-6 mt-6">
 
-  <div class="h-3"></div>
+    <!-- Признаки (красный блок) -->
+    <div class="bg-gradient-to-r from-red-50 to-white border-l-4 border-red-500 rounded-lg shadow p-6">
+      <h2 class="text-lg font-bold text-red-600 mb-3">⚠️ Признаки необходимости замены фильтров</h2>
 
-  <!-- Топливный фильтр -->
-  <h3 class="font-semibold mb-2">
-    <span class="text-green-600">► Топливный фильтр</span>
-  </h3>
-  <ul class="pl-6 list-disc space-y-1">
-    <li><span class="text-green-600"> Потеря мощности и ухудшение динамики.</span> Забитый фильтр ограничивает поступление топлива, из-за чего автомобиль может терять мощность при нажатии на педаль газа</li>
-    <li><span class="text-green-600"> Нестабильная работа на холостых оборотах.</span> Засоренный фильтр может приводить к вибрациям и нестабильным оборотам двигателя на холостом ходу, что указывает на неравномерную подачу топлива</li>
-    <li><span class="text-green-600"> Проблемы с запуском.</span> Забитый фильтр препятствует свободному поступлению топлива, из-за чего двигатель может заводиться только после нескольких попыток или не запускаться вовсе</li>
-    <li><span class="text-green-600"> Увеличение расхода топлива.</span> Забитый фильтр снижает эффективность работы двигателя, что может привести к увеличению расхода топлива</li>
-    <li><span class="text-green-600"> Шумная работа топливного насоса.</span> Если насос начинает работать с повышенной нагрузкой из-за засоренного фильтра, можно услышать необычные шумы или гул, особенно когда уровень топлива в баке низкий</li>
-  </ul>
+      <h3 class="font-semibold mb-2">Воздушный фильтр</h3>
+      <ul class="pl-6 list-disc space-y-1 mb-3">
+        <li><span class="font-semibold">Снижение мощности/тяги.</span> Ограничение притока воздуха ухудшает разгон.</li>
+        <li><span class="font-semibold">Рост расхода топлива.</span> Менее эффективное сгорание смеси.</li>
+        <li><span class="font-semibold">Чёрный дым из выхлопа.</span> Признак неполного сгорания.</li>
+        <li><span class="font-semibold">Шум при работе двигателя.</span> Двигатель «задыхается» от нехватки воздуха.</li>
+        <li><span class="font-semibold">Визуально грязный/повреждённый элемент.</span></li>
+      </ul>
 
-  <div class="h-3"></div>
+      <h3 class="font-semibold mb-2">Топливный фильтр</h3>
+      <ul class="pl-6 list-disc space-y-1 mb-3">
+        <li><span class="font-semibold">Потеря мощности, провалы при разгоне.</span></li>
+        <li><span class="font-semibold">Нестабильные холостые.</span> Неравномерная подача топлива.</li>
+        <li><span class="font-semibold">Проблемы с запуском.</span> Двигатель заводится не сразу или отказывается запускаться.</li>
+        <li><span class="font-semibold">Шумная работа топливного насоса.</span> Особенно при низком уровне топлива.</li>
+        <li><span class="font-semibold">Повышенный расход топлива.</span></li>
+      </ul>
 
-  <!-- Масляный фильтр -->
-  <h3 class="font-semibold mb-2">
-    <span class="text-green-600">► Масляный фильтр</span>
-  </h3>
-  <ul class="pl-6 list-disc space-y-1">
-    <li><span class="text-green-600"> Перегрев двигателя.</span> Забитый фильтр ухудшает циркуляцию масла, из-за чего двигатель нагревается быстрее обычного</li>
-    <li><span class="text-green-600"> Снижение мощности.</span> Двигатель работает медленнее, не тянет так, как раньше</li>
-    <li><span class="text-green-600"> Посторонние звуки в верхней части двигателя.</span> Например, стук клапанов или «пение» гидрокомпенсаторов</li>
-    <li><span class="text-green-600"> Тёмный цвет масла на щупе даже после недавней замены.</span> Это означает, что фильтр не справляется со своей работой, и грязь циркулирует по системе</li>
-    <li><span class="text-green-600"> Падение давления масла.</span> Загорается соответствующий индикатор на приборной панели</li>
-  </ul>
+      <h3 class="font-semibold mb-2">Масляный фильтр</h3>
+      <ul class="pl-6 list-disc space-y-1 mb-3">
+        <li><span class="font-semibold">Перегрев двигателя.</span> Ухудшение циркуляции масла.</li>
+        <li><span class="font-semibold">Сторонние звуки в ГРМ/верхней части.</span> Стук клапанов, «пение» гидрокомпенсаторов.</li>
+        <li><span class="font-semibold">Тёмное масло вскоре после замены.</span> Фильтр не справляется.</li>
+        <li><span class="font-semibold">Падение давления масла.</span> Загорается индикатор.</li>
+      </ul>
 
-  <div class="h-3"></div>
+      <h3 class="font-semibold mb-2">Салонный фильтр</h3>
+      <ul class="pl-6 list-disc space-y-1">
+        <li><span class="font-semibold">Слабый поток воздуха.</span> Падает эффективность кондиционера/отопителя.</li>
+        <li><span class="font-semibold">Повышенная влажность, запотевание стёкол.</span></li>
+        <li><span class="font-semibold">Аллергические реакции у пассажиров.</span></li>
+        <li><span class="font-semibold">Сильно загрязнён визуально.</span></li>
+      </ul>
+    </div>
 
-  <!-- Салонный фильтр -->
-  <h3 class="font-semibold mb-2">
-    <span class="text-green-600">► Салонный фильтр</span>
-  </h3>
-  <ul class="pl-6 list-disc space-y-1">
-    <li><span class="text-green-600"> Снижение эффективности системы вентиляции.</span> Забитый фильтр затрудняет прохождение воздуха через систему вентиляции, что может привести к снижению эффективности работы кондиционера или отопителя</li>
-    <li><span class="text-green-600"> Повышенная влажность в салоне.</span> Забитый фильтр может препятствовать нормальной циркуляции воздуха, что приводит к образованию конденсата на стёклах и повышенной влажности внутри автомобиля</li>
-    <li><span class="text-green-600"> Аллергические реакции.</span> Чихание, зуд в глазах или насморк могут свидетельствовать о необходимости замены фильтра</li>
-    <li><span class="text-green-600"> Визуальный осмотр.</span> Если фильтр сильно загрязнён, покрыт слоем пыли или грязи, значит, пора его заменить</li>
-  </ul>
+    <!-- Когда менять (жёлтый блок) -->
+    <div class="bg-gradient-to-r from-yellow-50 to-white border-l-4 border-yellow-500 rounded-lg shadow p-6">
+      <h2 class="text-lg font-bold text-yellow-600 mb-3">⏱ Когда менять</h2>
+      <ul class="list-disc pl-6 space-y-2">
+        <li><span class="font-semibold">Воздушный:</span> каждые 10–20 тыс. км или раз в год, чаще при пыльных условиях.</li>
+        <li><span class="font-semibold">Масляный:</span> при каждой замене моторного масла по регламенту.</li>
+        <li><span class="font-semibold">Топливный:</span> обычно 30–60 тыс. км, зависит от типа двигателя и качества топлива.</li>
+        <li><span class="font-semibold">Салонный:</span> 10–15 тыс. км или раз в год, чаще при интенсивной городской эксплуатации.</li>
+      </ul>
+      <p class="text-xs text-gray-600 mt-2">Фактические интервалы смотрите по руководству производителя для вашей модели.</p>
+    </div>
 
-  <p class="mt-5">
-    <span class="text-green-600">Регулярная замена фильтров –</span> это простой и эффективный способ поддержать ваш автомобиль в отличном техническом состоянии и обеспечить безопасность на дороге.
-  </p>
-</div>
+    <!-- Зачем менять (зелёный блок) -->
+    <div class="bg-gradient-to-r from-green-50 to-white border-l-4 border-green-500 rounded-lg shadow p-6">
+      <h2 class="text-lg font-bold text-green-600 mb-3">✅ Зачем менять вовремя</h2>
+      <ul class="list-disc pl-6 space-y-2">
+        <li>Стабильная тяга и экономичный расход</li>
+        <li>Меньше нагрузки на ДВС и топливную систему</li>
+        <li>Чище воздух в салоне, меньше аллергенов</li>
+        <li>Продление ресурса агрегатов и датчиков</li>
+      </ul>
+    </div>
 
-  <!-- Салонный фильтр -->
-  <h3 class="font-medium mt-4 mb-1">► Салонный фильтр</h3>
-  <ul class="pl-6 list-disc space-y-1">
-    <li>○ Снижение эффективности вентиляции: слабый поток, хуже работает кондиционер/отопитель.</li>
-    <li>○ Повышенная влажность, запотевание стёкол.</li>
-    <li>○ Аллергические реакции пассажиров (чихание, зуд в глазах, насморк).</li>
-    <li>○ Визуально: фильтр загрязнён, покрыт пылью/грязью — требуется замена.</li>
-  </ul>
+    <!-- Как проводим (синий блок) -->
+    <div class="bg-gradient-to-r from-blue-50 to-white border-l-4 border-blue-500 rounded-lg shadow p-6">
+      <h2 class="text-lg font-bold text-blue-600 mb-3">⚙️ Как проводится замена в техцентре АВТОГЕО</h2>
+      <ul class="list-disc pl-6 space-y-2">
+        <li>Диагностика состояния фильтрующих элементов и сопряжённых систем</li>
+        <li>Подбор фильтров по VIN и спецификациям производителя</li>
+        <li>Аккуратная замена с проверкой уплотнений и крепежа</li>
+        <li>Сброс сервисных интервалов (если предусмотрено)</li>
+        <li>Контрольный осмотр и рекомендации по дальнейшему обслуживанию</li>
+      </ul>
+    </div>
+  </div>
 
   <!-- CTA -->
-  <div class="bg-gray-100 border rounded-md p-4 my-4">
+  <div class="bg-gray-100 border rounded-md p-4 my-6">
     <p class="mb-2">
       Чтобы записаться на замену фильтров, позвоните по телефону 
       <b class="text-blue-600">{contacts.phone}</b> или закажите обратный звонок.
@@ -114,7 +125,7 @@
     </p>
   </div>
 
-  <!-- (Опционально) Прайс -->
+  <!-- Прайс -->
   <table class="w-full border mt-2 text-sm">
     <thead>
       <tr class="bg-gray-200">
@@ -131,7 +142,9 @@
       {/each}
     </tbody>
   </table>
-<div class="flex flex-wrap justify-center items-center gap-8 mt-8">
+
+  <!-- Логотипы -->
+  <div class="flex flex-wrap justify-center items-center gap-8 mt-8">
     <img src="/images/logo_auto/audi.png" alt="Audi" class="h-10 object-contain">
     <img src="/images/logo_auto/bmw.png" alt="BMW" class="h-10 object-contain">
     <img src="/images/logo_auto/ford.png" alt="Ford" class="h-10 object-contain">
@@ -144,8 +157,9 @@
     <img src="/images/logo_auto/renault.png" alt="Renault" class="h-10 object-contain">
     <img src="/images/logo_auto/tyiota.png" alt="Toyota" class="h-10 object-contain">
   </div>
+
   <p class="text-xs text-gray-600 mt-2">
-    *Стоимость работ, не указанных в прайсе, оговариваются отдельно с мастером‑приёмщиком.<br>
-    **Цены действительны при условии нормального состояния резьбовых крепёжных соединений (гайки, болты, винты и прочее нормально откручиваются без дополнительного нагрева, применения специальных жидкостей и средств).
+    *Стоимость работ, не указанных в прайсе, оговариваются отдельно с мастером-приёмщиком.<br>
+    **Цены действительны при условии нормального состояния резьбовых крепёжных соединений.
   </p>
 </div>

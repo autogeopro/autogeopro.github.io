@@ -1,7 +1,5 @@
 <script>
-  let contacts = {
-    phone: "+7 (999) 135-35-35"
-  };
+  let contacts = { phone: "+7 (999) 135-35-35" };
 
   let priceList = [
     { name: "Замена масла в МКПП", price: "от 1350 руб." },
@@ -10,68 +8,99 @@
 </script>
 
 <div class="max-w-[900px] mx-auto text-sm md:text-base text-gray-900 leading-relaxed p-6">
-  <h1 class="text-xl font-bold text-center mb-4 text-red-600">
+  <h1 class="text-xl font-bold text-center mb-6 text-red-600">
     ЗАМЕНА МАСЛА В КПП
   </h1>
-  
+
   <p class="mb-4">
-    Масло в коробке передач выполняет важную роль — обеспечивает смазку деталей, охлаждение и защиту от износа. 
-    Со временем масло теряет свои свойства, загрязняется микрочастицами и теряет вязкость, что может привести 
-    к повышенному трению, перегреву и поломкам КПП (АКПП).
+    Масло в коробке передач обеспечивает смазку, охлаждение и защиту от износа. Со временем оно загрязняется и теряет вязкость,
+    что ведёт к повышенному трению, перегреву и преждевременным поломкам КПП/АКПП.
   </p>
-  <img src="/images/zamena_masla_v_kpp_images/kpp.png" 
-  alt="Замена масла в КПП" 
-  class="mx-auto mb-4 rounded shadow-md">
 
-  <h2 class="font-semibold mt-4 mb-2">● Причины необходимости замены масла в КПП (АКПП)</h2>
-  <ul class="list-disc pl-6 space-y-1">
-    <li><span class="text-green-600 font-semibold">В механической коробке передач</span> со временем накапливаются продукты износа (стружка, бронза, латунь и др.), ухудшающие свойства масла.</li>
-    <li><span class="text-green-600 font-semibold">Ухудшается охлаждение.</span> Старое масло теряет способность эффективно охлаждать детали при интенсивном движении</li>
-    <li><span class="text-green-600 font-semibold">Попадание пыли и воды.</span>Они могут проникать в коробку передач через специальный сапун, например, при езде по бездорожью</li>
+  <img
+    src="/images/zamena_masla_v_kpp_images/kpp.png"
+    alt="Замена масла в КПП"
+    class="mx-auto mb-6 rounded shadow-md w-full"
+  />
 
+  <div class="grid gap-6 mt-8">
 
-    <li><span class="text-black-600 font-semibold">В автоматической коробке передач (АКПП)</span> 
-      <div class="max-w-[900px] mx-auto p-6 flex flex-col md:flex-row items-start gap-6">
- 
-  <img src="/images/zamena_masla_v_kpp_images/korobka_avtomat.png" 
-       alt="Изображение АКПП" 
-       class="w-full md:w-1/3 rounded shadow-md">
+    <!-- Причины (красный) -->
+    <div class="bg-gradient-to-r from-red-50 to-white border-l-4 border-red-500 rounded-lg shadow p-6">
+      <h2 class="text-lg font-bold text-red-600 mb-3">
+        ⚠️ Причины необходимости замены масла в КПП (АКПП)
+      </h2>
 
-  
-  <div class="text-sm md:text-base text-gray-900 leading-relaxed">
-    <p>
-      Находится много пар трения, которые со временем изнашиваются. 
-      Загрязнённое масло приводит к быстрому износу подшипников, шестерней, фрикционов и других элементов. 
-      Засорение фильтра. Продукты износа забивают фильтрующий элемент, что снижает давление жидкости и нарушает работу механизмов. 
-      Искажение показаний датчиков. Стружка, налипшая на датчики скорости вращения валов, может вызывать сбои в системе управления АКПП.
-    </p>
+      <!-- МКПП -->
+      <h3 class="font-semibold mb-2">МКПП</h3>
+      <ul class="list-disc pl-6 space-y-2">
+        <li><span class="font-semibold">Накопление продуктов износа.</span> Металлическая стружка и частицы бронзы/латуни ухудшают смазку и теплоотвод.</li>
+        <li><span class="font-semibold">Падение теплоёмкости.</span> Старое масло хуже охлаждает при интенсивном движении.</li>
+        <li><span class="font-semibold">Попадание влаги и пыли.</span> Через сапун при бездорожье внутрь может попасть вода и абразив.</li>
+      </ul>
+
+      <!-- АКПП (ряд с изображением) -->
+      <div class="mt-5 flex flex-col md:flex-row items-start gap-4">
+        <img
+          src="/images/zamena_masla_v_kpp_images/korobka_avtomat.png"
+          alt="АКПП"
+          class="w-full md:w-1/3 rounded shadow-md"
+        />
+        <div class="text-sm md:text-base leading-relaxed">
+          <h3 class="font-semibold mb-2">АКПП</h3>
+          <ul class="list-disc pl-6 space-y-2">
+            <li><span class="font-semibold">Много пар трения.</span> Загрязнённое масло ускоряет износ подшипников, шестерён, фрикционов.</li>
+            <li><span class="font-semibold">Засорение фильтра.</span> Падает давление жидкости, нарушается работа гидроблока.</li>
+            <li><span class="font-semibold">Сбои в работе датчиков.</span> Металлическая пыль на датчиках скорости валов даёт ошибки управления.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Польза (зелёный) -->
+    <div class="bg-gradient-to-r from-green-50 to-white border-l-4 border-green-500 rounded-lg shadow p-6">
+      <h2 class="text-lg font-bold text-green-600 mb-3">
+        ✅ Что даёт своевременная замена масла
+      </h2>
+      <ul class="list-disc pl-6 space-y-2">
+        <li>Снижает износ шестерён и подшипников</li>
+        <li>Уменьшает риск перегрева и заклинивания</li>
+        <li>Обеспечивает плавные и корректные переключения</li>
+        <li>Продлевает срок службы трансмиссии</li>
+      </ul>
+    </div>
+
+    <!-- Интервалы (жёлтый) -->
+    <div class="bg-gradient-to-r from-yellow-50 to-white border-l-4 border-yellow-500 rounded-lg shadow p-6">
+      <h2 class="text-lg font-bold text-yellow-600 mb-3">
+        ⏱ Когда проводить замену
+      </h2>
+      <p>
+        Рекомендуемый пробег до замены масла в коробке передач обычно <b>40–60 тыс. км</b>. В тяжёлых условиях эксплуатации
+        (пробки, буксировка, бездорожье, резкие перепады температур) интервал следует сократить.
+      </p>
+    </div>
+
+    <!-- Процесс (синий) -->
+    <div class="bg-gradient-to-r from-blue-50 to-white border-l-4 border-blue-500 rounded-lg shadow p-6">
+      <h2 class="text-lg font-bold text-blue-600 mb-3">
+        ⚙️ Как проходит замена в техцентре АВТОГЕО
+      </h2>
+      <ul class="list-disc pl-6 space-y-2">
+        <li>Слив старого масла (или откачка при регламенте производителя)</li>
+        <li>Замена фильтра при наличии конструктивной возможности</li>
+        <li>Заправка масла, соответствующего спецификациям конкретной КПП/АКПП</li>
+        <li>Проверка уровня, герметичности и адаптация (для ряда АКПП)</li>
+        <li>Используются только сертифицированные масла и комплектующие</li>
+      </ul>
+    </div>
+
   </div>
-</div>
-</li>
-  </ul>
 
-  <h2 class="font-semibold mt-4 mb-2">● Своевременная замена масла в коробке передач</h2>
-  <ul class="list-disc pl-6 space-y-1">
-    <li>Предотвратит износ шестерней и подшипников</li>
-    <li>Снизит риск перегрева и заклинивания</li>
-    <li>Обеспечит плавное переключение передач</li>
-    <li>Продлит срок службы трансмиссии</li>
-  </ul>
-
-  <h2 class="font-semibold mt-4 mb-2">● Когда проводить замену масла</h2>
-  <p class="mb-4">
-    Обычно рекомендуется менять масло в КПП каждые <b>40–60 тыс. км</b>. 
-    В тяжёлых условиях эксплуатации интервал сокращается.
-  </p>
-
-  <p class="text-blue-600 font-semibold mb-4">
-    Доверьте замену масла в коробке передач специалистам техцентра АВТОГЕО – 
-    и трансмиссия вашего автомобиля будет работать без сбоев долгие годы!
-  </p>
-
-  <div class="bg-gray-100 border rounded-md p-4 mb-4">
+  <!-- CTA -->
+  <div class="bg-gray-100 border rounded-md p-4 my-6">
     <p class="mb-2">
-      Чтобы записаться на замену масла в КПП (АКПП) позвоните по телефону 
+      Чтобы записаться на замену масла в КПП (АКПП) позвоните по телефону
       <b class="text-blue-600">{contacts.phone}</b> или закажите обратный звонок.
     </p>
     <p class="text-xs text-gray-500">
@@ -79,15 +108,7 @@
     </p>
   </div>
 
-  <h2 class="font-semibold mt-4 mb-2">● Как проходит замена масла в коробке передач в техцентре АВТОГЕО</h2>
-  <ul class="list-disc pl-6 space-y-1">
-    <li>Сливается старое масло из КПП</li>
-    <li>Меняется фильтр (если предусмотрен)</li>
-    <li>Заливается качественное масло по спецификации производителя</li>
-    <li>Проверяется уровень и герметичность</li>
-    <li>Используются только сертифицированные масла</li>
-  </ul>
-
+  <!-- Прайс -->
   <table class="w-full border mt-6 text-sm">
     <thead>
       <tr class="bg-gray-200">
@@ -104,7 +125,9 @@
       {/each}
     </tbody>
   </table>
-<div class="flex flex-wrap justify-center items-center gap-8 mt-8">
+
+  <!-- Логотипы -->
+  <div class="flex flex-wrap justify-center items-center gap-8 mt-8">
     <img src="/images/logo_auto/audi.png" alt="Audi" class="h-10 object-contain">
     <img src="/images/logo_auto/bmw.png" alt="BMW" class="h-10 object-contain">
     <img src="/images/logo_auto/ford.png" alt="Ford" class="h-10 object-contain">
@@ -117,8 +140,9 @@
     <img src="/images/logo_auto/renault.png" alt="Renault" class="h-10 object-contain">
     <img src="/images/logo_auto/tyiota.png" alt="Toyota" class="h-10 object-contain">
   </div>
+
   <p class="text-xs text-gray-600 mt-2">
-    *Стоимость работ, не указанных в прайсе, оговариваются отдельно с мастером-приемщиком.<br />
+    *Стоимость работ, не указанных в прайсе, оговариваются отдельно с мастером-приёмщиком.<br />
     **Цены действительны при условии нормального состояния резьбовых соединений.
   </p>
 </div>

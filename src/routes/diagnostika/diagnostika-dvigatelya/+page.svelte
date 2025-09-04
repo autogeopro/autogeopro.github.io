@@ -97,7 +97,19 @@
       {/each}
     </tbody>
   </table>
-
+  <div class="flex flex-wrap justify-center items-center gap-8 mt-8">
+    <img src="/images/logo_auto/audi.png" alt="Audi" class="h-10 object-contain">
+    <img src="/images/logo_auto/bmw.png" alt="BMW" class="h-10 object-contain">
+    <img src="/images/logo_auto/ford.png" alt="Ford" class="h-10 object-contain">
+    <img src="/images/logo_auto/hundai.png" alt="Hyundai" class="h-10 object-contain">
+    <img src="/images/logo_auto/kia.png" alt="Kia" class="h-10 object-contain">
+    <img src="/images/logo_auto/mazda.png" alt="Mazda" class="h-10 object-contain">
+    <img src="/images/logo_auto/mercedes.png" alt="Mercedes" class="h-10 object-contain">
+    <img src="/images/logo_auto/nissan.png" alt="Nissan" class="h-10 object-contain">
+    <img src="/images/logo_auto/peugeot.png" alt="Peugeot" class="h-10 object-contain">
+    <img src="/images/logo_auto/renault.png" alt="Renault" class="h-10 object-contain">
+    <img src="/images/logo_auto/tyiota.png" alt="Toyota" class="h-10 object-contain">
+  </div>
   <p class="text-xs text-gray-600 mt-2">
     *Стоимость работ, не указанных в прайсе, оговаривается с мастером-приемщиком.<br />
     **Цены действительны при условии нормального состояния резьбовых крепежных соединений (гайки, болты, винты и прочее нормально откручиваются без дополнительного нагрева, применения специальных жидкостей и средств).

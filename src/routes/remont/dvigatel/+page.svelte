@@ -38,14 +38,14 @@
   </p>
 
   <!-- Картинка -->
-  <div class="mb-8">
-    <img
-      src="/images/remont/rem_dvig.png"
-      alt="Ремонт двигателя"
-      class="w-full h-64 md:h-80 object-cover rounded-lg shadow"
-      loading="lazy"
-    />
-  </div>
+<div class="mb-8">
+  <img
+    src="/images/remont/rem_dvig.png"
+    alt="Ремонт двигателя"
+    class="w-full max-h-[600px] object-contain rounded-lg shadow"
+    loading="lazy"
+  />
+</div>
 
   <!-- Признаки неисправности -->
   <section class="bg-gradient-to-r from-red-50 to-white border-l-4 border-red-500 rounded-lg shadow p-6 mb-8">

@@ -11,11 +11,12 @@
     </h1>
     
     <a 
-      class="uni_button rounded-md px-[48px] py-[16px] bg-secondary text-text font-bold no-underline hover:bg-hoverButton transition-bg duration-200 ease-in-out" 
-      href="/"
-    >
-      Записаться
-    </a>
+  class="uni_button rounded-md px-[48px] py-[16px] bg-secondary text-text font-bold no-underline hover:bg-hoverButton transition-bg duration-200 ease-in-out" 
+  href="https://wa.me/79991353535" 
+  target="_blank"
+>
+  Записаться
+</a>
   </div>
 
   <slot/>

@@ -47,7 +47,13 @@ function goToAbout() {
           </div>
         </div>
     <div class="ml-auto pr-3">
-       <button class="md:block text-base mt-5 px-10 py-3 rounded-md bg-secondary text-text font-bold hover:bg-hoverButton  transition-colors duration-200 ease-in-out hidden" href="/">Запись</button>
+       <a 
+  class="md:block text-base mt-5 px-10 py-3 rounded-md bg-secondary text-text font-bold hover:bg-hoverButton transition-colors duration-200 ease-in-out hidden" 
+  href="https://wa.me/79991353535" 
+  target="_blank"
+>
+  Запись
+</a>
 <!-- burger button -->
 <BurgerButton buttonMenu={buttonMenu} isButtonOpen={isButtonOpen} />
     </div>

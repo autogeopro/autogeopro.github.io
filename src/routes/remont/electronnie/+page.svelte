@@ -19,7 +19,7 @@
     <img
       src="/images/remont/electro_oborydovanie.png"
       alt="Ремонт электронных систем"
-      class="w-full h-64 md:h-80 object-cover rounded-lg shadow"
+      class="w-full max-h-[600px] object-contain rounded-lg shadow"
       loading="lazy"
     />
   </div>

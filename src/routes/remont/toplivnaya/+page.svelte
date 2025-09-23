@@ -94,9 +94,12 @@
       Чтобы записаться на ремонт топливной системы, позвоните
       <b class="text-blue-600">{contacts.phone}</b> или закажите обратный звонок.
     </p>
-    <p class="text-xs text-gray-500">
-      □ Выражаю Согласие на обработку персональных данных в соответствии с условиями Политики конфиденциальности
-    </p>
+    <label class="flex items-center gap-2 cursor-pointer">
+    <input id="consentCheckbox" type="checkbox" class="w-4 h-4">
+    <span id="consentText" class="text-xs text-gray-500">
+    Выражаю Согласие на обработку персональных данных в соответствии с условиями Политики конфиденциальности
+    </span>
+  </label>
   </div>
 
   <!-- Прайс -->

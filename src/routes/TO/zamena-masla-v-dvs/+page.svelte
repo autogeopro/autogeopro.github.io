@@ -90,10 +90,35 @@
       Чтобы записаться на замену масла позвоните по телефону 
       <b class="text-blue-600">{contacts.phone}</b> или закажите обратный звонок.
     </p>
-    <p class="text-xs text-gray-500">
-      □ Выражаю Согласие на обработку персональных данных в соответствии с условиями Политики конфиденциальности
-    </p>
+    <label class="flex items-center gap-2 cursor-pointer">
+    <input id="consentCheckbox" type="checkbox" class="w-4 h-4">
+    <span id="consentText" class="text-xs text-gray-500">
+    Выражаю Согласие на обработку персональных данных в соответствии с условиями Политики конфиденциальности
+    </span>
+  </label>
+
   </div>
+
+<script>
+  const checkbox = document.getElementById('consentCheckbox');
+  const text = document.getElementById('consentText');
+
+  checkbox.addEventListener('change', () => {
+    if (checkbox.checked) {
+      text.classList.add('opacity-0', 'translate-y-4', 'h-0', 'overflow-hidden');
+    } else {
+      text.classList.remove('opacity-0', 'translate-y-4', 'h-0', 'overflow-hidden');
+    }
+  });
+</script>
+
+<style>
+  /* чтобы работали translate и opacity в Tailwind */
+  #consentText {
+    transition: all 0.5s ease-in-out;
+  }
+</style>
+
 
   <table class="w-full border mt-6 text-sm">
     <thead>

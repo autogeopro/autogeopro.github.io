@@ -1,41 +1,62 @@
 <div class="max-w-[1280px] mx-auto mt-20">
-    <div class="px-10">
-  <h1 id="about" class="text-center text-primary text-3xl">О Нас</h1>
-<p class=" text-primary text-lg md:text-xl mt-10">Мы - профессиональная команда специалистов, предлагающая 
-    широкий спектр услуг по обслуживанию и ремонту легковых автомобилей 
-   <span class="text-secondary">Volkswagen, Audi, Skoda, Mercedes, BMW, Ford, KIA, 
-    Hyundai, Opel, Toyota</span>  и других автопроизводителей, в том числе 
-    коммерческого транспорта <span class="text-secondary">Peugeot Traveller, Opel Zafira Life, 
-    Citroen Space Tourer.</span></p>
-<p class="text-primary text-lg md:text-xl mt-3">Наш <span class="text-secondary">ТЕХЦЕНТР «АВТОГЕО»</span> оснащен современным 
-    оборудованием и мы всегда готовы принять Вас с улыбкой  
-    и решить любые проблемы, связанные с Вашим автомобилем. </p>
-<div class="mx-auto">
-    
- <p class="mt-10 text-center text-primary text-3xl">Наши услуги </p>
-<div class="text-text text-sm md:text-base mt-10 grid grid-cols-1 md:grid-cols-2 mb-10 gap-3 mx-auto justify-items-center"> 
-    <div class="bg-third p-5 rounded-lg max-w-[500px] lg:h-[200px] sm:h-[250px]"><p>
-       <span class="font-bold text-lg md:text-xl">Техническое обслуживание:</span> <br> Мы проведем полное 
-        техническое обслуживание Вашего автомобиля, включая замену масла и 
-        фильтров, проверку и регулировку системы зажигания, тормозной системы, 
-        системы охлаждения и многого другого.</p></div>
-    <div class="bg-third p-5 rounded-lg max-w-[500px] lg:h-[200px] sm:h-[250px]"><p><span class="font-bold text-lg md:text-xl"> Диагностика и ремонт двигателя:</span> <br> Наши специалисты 
-        проведут комплексную диагностику двигателя Вашего автомобиля, выявят 
-        все неисправности и произведут качественный ремонт.</p></div>
-    <div class="bg-third p-5 rounded-lg max-w-[500px] lg:h-[200px] sm:h-[250px]"><p><span class="font-bold text-lg md:text-xl">Шиномонтаж и балансировка:</span> <br> Мы предлагаем услуги  
-        по замене и ремонту шин, а также балансировку колес, чтобы обеспечить 
-        Вам комфортное и безопасное вождение. </p></div>
-    <div class="bg-third p-5 rounded-lg max-w-[500px] lg:h-[200px] sm:h-[250px]"><p><span class="font-bold text-lg md:text-xl">Ремонт подвески и тормозной системы:</span> <br> Наши 
-        специалисты произведут диагностику и ремонт подвески и тормозной 
-        системы Вашего автомобиля, чтобы обеспечить его стабильность  
-        и безопасность на дороге. </p></div>
-    <div class="bg-third p-5 rounded-lg max-w-[500px] lg:h-[200px] sm:h-[250px]"><p> <span class="font-bold text-lg md:text-xl">Электрические работы:</span> <br> Мы специализируемся на ремонте 
-        электрических систем автомобилей, включая диагностику и замену 
-        аккумуляторов, ремонт проводки и электроники.</p></div>
-</div>
-</div>
+  <div class="px-10">
+    <h1 id="about" class="text-center text-primary text-3xl">О Нас</h1>
+
+    <p class="text-primary text-lg md:text-xl mt-10">
+      Профессиональная команда специалистов, предлагающая широкий спектр услуг по обслуживанию и ремонту легковых автомобилей 
+      <span class="text-secondary">Volkswagen, Audi, Skoda, Mercedes, BMW, Ford, KIA, Hyundai, Opel, Toyota</span> и других автопроизводителей, 
+      а также коммерческого транспорта 
+      <span class="text-secondary">Peugeot Traveller, Opel Zafira Life, Citroen Space Tourer.</span>
+    </p>
+
+    <p class="text-primary text-lg md:text-xl mt-3">
+      <span class="text-secondary">Техцентр «АВТОГЕО»</span> оснащен современным оборудованием и готов помочь в решении задач, связанных с обслуживанием и ремонтом автомобилей.
+    </p>
+
+    <div class="mx-auto">
+      <p class="mt-10 text-center text-primary text-3xl">Наши услуги</p>
+
+      <div class="text-text text-sm md:text-base mt-10 grid grid-cols-1 md:grid-cols-2 mb-10 gap-3 mx-auto justify-items-center"> 
+
+        <div class="bg-third p-5 rounded-lg max-w-[500px] lg:h-[200px] sm:h-[250px]">
+          <p>
+            <span class="font-bold text-lg md:text-xl">Техническое обслуживание:</span><br>
+            Полное техническое обслуживание автомобиля: замена масла и фильтров, проверка и регулировка системы зажигания, тормозной системы, системы охлаждения и других узлов.
+          </p>
+        </div>
+
+        <div class="bg-third p-5 rounded-lg max-w-[500px] lg:h-[200px] sm:h-[250px]">
+          <p>
+            <span class="font-bold text-lg md:text-xl">Диагностика и ремонт двигателя:</span><br>
+            Комплексная диагностика двигателя, выявление неисправностей и качественный ремонт.
+          </p>
+        </div>
+
+        <div class="bg-third p-5 rounded-lg max-w-[500px] lg:h-[200px] sm:h-[250px]">
+          <p>
+            <span class="font-bold text-lg md:text-xl">Шиномонтаж и балансировка:</span><br>
+            Услуги по замене и ремонту шин, а также балансировка колес для комфортного и безопасного вождения.
+          </p>
+        </div>
+
+        <div class="bg-third p-5 rounded-lg max-w-[500px] lg:h-[200px] sm:h-[250px]">
+          <p>
+            <span class="font-bold text-lg md:text-xl">Ремонт подвески и тормозной системы:</span><br>
+            Диагностика и ремонт подвески и тормозной системы автомобиля для обеспечения устойчивости и безопасности на дороге.
+          </p>
+        </div>
+
+        <div class="bg-third p-5 rounded-lg max-w-[500px] lg:h-[200px] sm:h-[250px]">
+          <p>
+            <span class="font-bold text-lg md:text-xl">Электрические работы:</span><br>
+            Ремонт электрических систем автомобилей, диагностика и замена аккумуляторов, ремонт проводки и электроники.
+          </p>
+        </div>
+
+      </div>
+    </div>
 <div class="bg-lightBackground p-5 rounded-lg mx-auto ">
-<h1 class="text-primary text-lg md:text-xl mt-6 "> <span class="text-secondary">ТЕХЦЕНТР «АВТОГЕО»</span> - заботимся о вашем автомобиле, чтобы 
+<h1 class="text-primary text-lg md:text-xl mt-6 "> <span class="text-secondary">ТЕХЦЕНТР</span> - заботимся о вашем автомобиле, чтобы 
     вы могли наслаждаться безопасной и комфортной поездкой. </h1>
 <p class="text-secondary text-lg md:text-xl mt-6 ">Запишитесь к нам уже сегодня и доверьте свой 
     автомобиль профессионалам!</p>

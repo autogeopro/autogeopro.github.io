@@ -5,12 +5,16 @@
     alt=""
   >
       
-  <div class="main_container_block relative bg-white bg-opacity-50 p-6 mt-5 mb-5 rounded-lg mr-10 ml-14 md:ml-24 max-w-[790px] min-h-[350px] flex flex-col justify-center items-start bg-gradient-to-r from-[rgba(255,255,255,0.8)] to-transparent">
-    <h1 class="main_text_bold font-bold text-[45px] text-third m-0 leading-[56px] xs:leading-[40px] xs:text-[30px]">
+  <div class="main_container_block relative p-6 mt-5 mb-5 rounded-lg mr-10 ml-14 md:ml-24 max-w-[790px] min-h-[350px] flex flex-col justify-center items-start"
+       style="background: rgba(255, 255, 255, 0.25);">
+       
+    <h1 class="main_text_bold font-bold text-[45px] text-black m-0 leading-[56px] xs:leading-[40px] xs:text-[30px]"
+        style="text-shadow: 2px 2px 5px rgba(0,0,0,0.6);">
       Дороги ведут к нам!
     </h1>
-    <!-- <a class="main_button_mail pt-4 no-underline text-secondary relative font-bold ml-11" href="/">Записаться</a> -->
-    <p class="main_text_third mt-6 text-primary text-base">
+    
+    <p class="main_text_third mt-6 text-black text-base font-bold"
+       style="text-shadow: 1px 1px 3px rgba(0,0,0,0.5);">
       г.Москва, ул.Авиамоторная, д.73А стр 5
     </p>
   </div>

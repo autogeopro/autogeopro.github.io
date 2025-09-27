@@ -23,6 +23,24 @@
     class="mx-auto mb-6 rounded shadow-md w-full"
   />
 
+   <!-- Прайс -->
+  <table class="w-full border mt-6 text-sm">
+    <thead>
+      <tr class="bg-gray-200">
+        <th class="p-2 border">Наименование работ*</th>
+        <th class="p-2 border">Стоимость</th>
+      </tr>
+    </thead>
+    <tbody>
+      {#each priceList as item}
+        <tr>
+          <td class="border p-2">{item.name}</td>
+          <td class="border p-2">{item.price}</td>
+        </tr>
+      {/each}
+    </tbody>
+  </table>
+
   <div class="grid gap-6 mt-8">
 
     <!-- Причины (красный) -->
@@ -111,23 +129,7 @@
   </label>
   </div>
 
-  <!-- Прайс -->
-  <table class="w-full border mt-6 text-sm">
-    <thead>
-      <tr class="bg-gray-200">
-        <th class="p-2 border">Наименование работ*</th>
-        <th class="p-2 border">Стоимость</th>
-      </tr>
-    </thead>
-    <tbody>
-      {#each priceList as item}
-        <tr>
-          <td class="border p-2">{item.name}</td>
-          <td class="border p-2">{item.price}</td>
-        </tr>
-      {/each}
-    </tbody>
-  </table>
+ 
 
   <!-- Логотипы -->
   <div class="flex flex-wrap justify-center items-center gap-8 mt-8">

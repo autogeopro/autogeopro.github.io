@@ -18,6 +18,27 @@
     Свечи зажигания воспламеняют топливно-воздушную смесь и напрямую влияют на мощность, экономичность и экологичность работы двигателя.
   </p>
 
+  <!-- Прайс -->
+  <table class="w-full border mt-2 text-sm">
+    <thead>
+      <tr class="bg-gray-200">
+        <th class="p-2 border">Наименование работ*</th>
+        <th class="p-2 border">Стоимость</th>
+      </tr>
+    </thead>
+    <tbody>
+      {#each priceListPlugs as item}
+        <tr>
+          <td class="border p-2">{item.name}</td>
+          <td class="border p-2">{item.price}</td>
+        </tr>
+      {/each}
+    </tbody>
+  </table>
+
+
+  
+
   <div class="grid gap-6">
     <!-- Признаки (красный блок с обтеканием картинки) -->
     <div class="bg-gradient-to-r from-red-50 to-white border-l-4 border-red-500 rounded-lg shadow p-6">
@@ -118,23 +139,7 @@
   </label>
   </div>
 
-  <!-- Прайс -->
-  <table class="w-full border mt-2 text-sm">
-    <thead>
-      <tr class="bg-gray-200">
-        <th class="p-2 border">Наименование работ*</th>
-        <th class="p-2 border">Стоимость</th>
-      </tr>
-    </thead>
-    <tbody>
-      {#each priceListPlugs as item}
-        <tr>
-          <td class="border p-2">{item.name}</td>
-          <td class="border p-2">{item.price}</td>
-        </tr>
-      {/each}
-    </tbody>
-  </table>
+  
 
   <!-- Логотипы -->
   <div class="flex flex-wrap justify-center items-center gap-8 mt-8">

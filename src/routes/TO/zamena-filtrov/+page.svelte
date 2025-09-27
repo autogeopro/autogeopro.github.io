@@ -27,6 +27,24 @@
       alt="Фильтр" 
       class="w-40 sm:w-48 md:w-56 float-none md:float-left mr-0 md:mr-4 mb-3 md:mb-2 rounded shadow-md"
     />
+<!-- Прайс -->
+  <table class="w-full border mt-2 text-sm">
+    <thead>
+      <tr class="bg-gray-200">
+        <th class="p-2 border">Наименование работ*</th>
+        <th class="p-2 border">Стоимость</th>
+      </tr>
+    </thead>
+    <tbody>
+      {#each priceListFilters as item}
+        <tr>
+          <td class="border p-2">{item.name}</td>
+          <td class="border p-2">{item.price}</td>
+        </tr>
+      {/each}
+    </tbody>
+  </table>
+
     <h2 class="font-semibold mt-1 mb-2 text-fuchsia-700">● Виды фильтров</h2>
     <ul class="space-y-1 pl-1">
       <li><span class="font-semibold">Топливный фильтр</span> — задерживает загрязнения из бензина/дизеля, защищает форсунки и элементы топливной системы.</li>
@@ -128,23 +146,7 @@
   </label>
   </div>
 
-  <!-- Прайс -->
-  <table class="w-full border mt-2 text-sm">
-    <thead>
-      <tr class="bg-gray-200">
-        <th class="p-2 border">Наименование работ*</th>
-        <th class="p-2 border">Стоимость</th>
-      </tr>
-    </thead>
-    <tbody>
-      {#each priceListFilters as item}
-        <tr>
-          <td class="border p-2">{item.name}</td>
-          <td class="border p-2">{item.price}</td>
-        </tr>
-      {/each}
-    </tbody>
-  </table>
+  
 
   <!-- Логотипы -->
   <div class="flex flex-wrap justify-center items-center gap-8 mt-8">

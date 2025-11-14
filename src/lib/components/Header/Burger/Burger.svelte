@@ -9,15 +9,52 @@ function goToReviews() {
 function goToAbout() {
   goto('/#about');
 }
+
+function goToTO() {
+  goto('/TO').then(() => {
+    setTimeout(() => {
+      const el = document.getElementById('maintenance');
+      if (el) el.scrollIntoView({ behavior: 'smooth' });
+    }, 50);
+  });
+}
+
+function goToDiagnostika() {
+  goto('/diagnostika').then(() => {
+    setTimeout(() => {
+      const el = document.getElementById('diagnostics');
+      if (el) el.scrollIntoView({ behavior: 'smooth' });
+    }, 50);
+  });
+} 
+
+function goToRemont() {
+  goto('/remont').then(() => {
+    setTimeout(() => {
+      const el = document.getElementById('repairs');
+      if (el) el.scrollIntoView({ behavior: 'smooth' });
+    }, 50);
+  });
+}
+ function goToPrice() {
+  goto('/price').then(() => {
+    setTimeout(() => {
+      const el = document.getElementById('technical-maintenance');
+      if (el) el.scrollIntoView({ behavior: 'smooth' });
+    }, 50);
+  }); 
+} 
+
+
 </script>
 
 
 <ul class="text-[20px] leading-3 bg-text list-none text-second menu flex-grow flex-col p-0 flex mx-auto md:hidden items-center text-primary font-bold mb-10">
   <li><a class="  rounded-none py-5" on:click|preventDefault={goToAbout} href="/#about"> О Нас</a></li>
-  <li><a class="rounded-none py-5" href="/TO">ТО</a></li>
-  <li><a class="rounded-none py-5" href="/diagnostika">Диагностика</a></li>
-  <li><a class="rounded-none py-5" href="/remont">Ремонт</a></li>
-  <li><a class="rounded-none py-5" href="/price">Цены</a></li>
+  <li><a class="rounded-none py-5" on:click|preventDefault={goToTO} href="/TO#maintenance">ТО</a></li>
+  <li><a class="rounded-none py-5" on:click|preventDefault={goToDiagnostika} href="/diagnostika#diagnostics">Диагностика</a></li>
+  <li><a class="rounded-none py-5" on:click|preventDefault={goToRemont} href="/remont#repairs">Ремонт</a></li>
+  <li><a class="rounded-none py-5" on:click|preventDefault={goToPrice} href="/price#technical-maintenance">Цены</a></li>
   <li><a class="rounded-none py-5" on:click|preventDefault={goToReviews} href="/#reviews">Отзывы</a></li>
  <li>
   <a class="rounded-none py-5 pt-10" href="tel:+79991353535">

@@ -9,12 +9,12 @@
   ];
 </script>
 
-<div class="max-w-[900px] mx-auto text-sm md:text-base text-gray-900 leading-relaxed p-6">
+<div id="maintenance" class="max-w-[900px] mx-auto text-sm md:text-base text-gray-900 leading-relaxed p-6">
   <h1 class="text-xl font-bold text-center mb-6 text-red-600">
     ЗАМЕНА МАСЛА В ДВС
   </h1>
 
-  <p class="mb-4">
+  <p  class="mb-4">
     Замена масла в двигателе внутреннего сгорания (ДВС) — одна из ключевых процедур, 
     обеспечивающих долгий срок службы и надежную работу автомобиля. Со временем моторное масло 
     теряет свои эксплуатационные свойства: смазывающие и охлаждающие функции снижаются, 

@@ -7,9 +7,9 @@
   ];
 </script>
 
-<div class="max-w-[1000px] mx-auto text-sm md:text-base text-gray-900 leading-relaxed p-6">
+<div  id="diagnostics" class="max-w-[1000px] mx-auto text-sm md:text-base text-gray-900 leading-relaxed p-6">
 
-  <h1 class="text-2xl font-bold text-center mb-8 text-red-600">
+  <h1  class="text-2xl font-bold text-center mb-8 text-red-600">
     КОМПЬЮТЕРНАЯ ДИАГНОСТИКА
   </h1>
 
